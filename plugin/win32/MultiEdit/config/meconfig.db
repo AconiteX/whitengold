@@ -1,0 +1,521 @@
+INIT.CFG
+/MEMORY_PERCENTAGE=1
+/PAGE_STR=
+/TRUNCATE_SPACES=1
+/PERSISTENT_BLOCKS=0
+/SAVE_RESETS_CHANGED=0
+/SAFENETSAVE=0
+/TYPING_OVERWRITES_BLOCK=1
+/STREAM_BLOCK_MODE=0
+/CTRL_Z=0
+/EOF_CR=1
+/FILE_LOCKING=0
+/TAB_EXPAND=1
+/WORD_DELIMITS=.()"',#$@!%^&*{}[]?/||;: \N\T
+/MAX_UNDO=100
+/COLUMN_MOVE_STYLE=1
+/KEYWORD_HIGHLIGHTING=1
+/KEYWORD_CLINE_OVERRIDE=1
+/CL_FOCUS_RECT=1
+/INSERT_MODE=1
+/BACKUPS=0
+/INS_CURSOR=0
+/OVR_CURSOR=3
+/CURSORRESTRICT=0
+/WORD_WRAP_STYLE=0
+/GLOBAL_VARIABLES=
+/GI=#DEFGLOBALHILITEFLAGS=-2147483648
+/GS=#DBPS@2=NAME=30CMD=25KEY=20KEY2=20
+/GI=#G_SHIFTCURSORMODE=1
+/GI=#CONFIG_VERSION=8012
+/GI=#TABENABLE=2
+/GS=#TABBARSETTINGS=/EN=2/OP=48/BK=-8355840/FG=-1/SBK=16776960/SFG=-1/F=
+/GI=#SEARCH_TABNO=1
+/GI=#BINARY_MODE=1
+/GI=#SCRLMVCURSOR=1
+/GI=#G_AUTOARRANGEICONS=1
+/GI=#TABINDENTSBLOCK=1
+/GI=#GLOBALHIGHLIGHTFLAGS=-2147483646
+/GS=@Me_Serial#=MEW800GN290202
+/GS=&Wcmdmapname=WCMDMAP
+/GS=&Wcmdmapinit=
+/GS=&Defaultfont=
+/GS=&Defaultmenu=MAIN
+/GS=&Defaultcolor=Mocha
+/GS=!Backup_Path=<USER_PATH>\\BAK
+/GS=!Temp_Path=
+/GS=@Tmp_File_Path=
+/GS=!Autosaveparms=/M1=0/M2=0/T1=0/T2=0/S1=1/S2=1
+/GI=@Pgm_Menu_Bypass=0
+/GS=@Restore_Path=
+/GI=@Restore_Flags=1
+/GI=~Session_New_Empty=1
+/GI=!Sess_Sort_Descend=0
+/GI=!Sess_Sort_By_Dir=0
+/GI=!Autoarrangerrsrc=1
+/GI=&Vcsenable=0
+/GI=!Calc_Tape_Off=0
+/GI=Calc_Word_Length=32
+/GI=Calc_Unsigned=0
+/GI=!Calc_Force_Numlock=0
+/GS=@Default_Ext_List=C;CPP;H;HPP;S;SH;PAS;ASM;INC
+/GI=Default_Insert_Mode=1
+/GI=Reg_Exp_Style=1
+/GS=Switches=XIG
+/GS=Def_Switches=XIG
+/GS=Repl_Switches=XPKIR
+/GS=Def_Repl_Switches=XPKIR
+/GS=Fswitches=XIS
+/GS=Def_Fs_Switches=XIS
+/GS=Fsearch_Path=
+/GS=Def_Fs_Path=
+/GS=Frswitches=XIS
+/GS=Def_Fsr_Switches=XIS
+/GS=Fsearch_Repl_Path=
+/GS=Def_Fsr_Path=
+/GS=Fc_Config_Str=/SH=1/IGC=1/IGI=1/IGB=1/IGT=1/NWL=1/WS=1
+/GI=Binary_Mode=1
+/GI=Toolhelpdelay=5
+/GI=Split_Edge_Mode=0
+/GI=No_Confirm_Overwrite=1
+/GI=Cursor_Eob=1
+/GI=@Restore=3
+/GI=@Maximize_Windows=1
+/GI=!Nofile_Hidden=1
+/GI=!Dosexecmethod=0
+/GI=BlockOffAfterPaste=1
+/GI=!ActivateFlags=770
+/GI=!UseW32Exec=1
+/GI=@ExecKeep=0
+/GI=@ExecNoDisplay=0
+/GI=!ExecShutdown=0
+/GI=&DelErrWin=0
+/GI=&MsgOnLeft=1
+/GI=!ChkInBlock=1
+/GI=!KeepBlkMarking=0
+/GI=!DelKeyDelsBlk=1
+/GI=!Tmp_Global=0
+/GI=Oem_Mode=0
+/GI=@History_Length=19
+/GI=!Fprompt_Mode=12
+
+MULTITAGS.CFG /DF=METAGS.TAG/AL=0/WU=1/EB=0/SP=0/SORT=0
+FILE=<ME_PATH>C.TAGLS=C
+FILE=<ME_PATH>CMAC.TAGLS=CMAC
+FILE=<ME_PATH>PASCAL.TAGLS=PASCAL
+FILE=DATAFLEXLS=DATAFLEX
+LANGUAGE.DB
+LANG=ADARW1=abort abs abstract accept access aliased all and array at begin body case constant declare delay delta digits do else elsif end entry exception exit for function generic goto if in is limited loop mod new not null of or others out package pragma private procedure protected raise range record rem renames requeue return reverse select separate subtype tagged task terminate then type until use when while with xorSYM='()*+,-./:;<=>|&STR="EOL=--TAGFILE=<~TagPath>Ada.tagCFGMAC=Ada^AdaSetProperties /L=AdaINIMAC=Ada^AdaInitINDMAC=Ada^AdaIndentMATMAC=Ada^AdaMatchFTMAC=Ada^AdaFindTagPROP=/O=3
+LANG=ASMRW1=AND BYTE CODEPTR DATAPTR DUP DWORD EQ FAR FWORD GE GT HIGH LARGE LE LENGTH LOW LT MASK MOD NE NEAR NOT OFFSET OR PROC PTR PWORD QWORD SEG SHL SHORT SHR SIZE SMALL SYMTYPE TBYTE THIS TYPE UNKNOWN WIDTH WORD XORSYM=@%!&$()*+-/:?.<>[]EOL=;STR='"
+LANG=ASPECTRW1=addfilename alarm ansitokey ansitooem atof atoi atol beep bitmap bitmapbkg break  breakpoint call capture captuestr case chain chdir checkbox clear clearxoff cliptofile cliptostr combobox comgetc comment compile computc comread comwrite copyfile crc16 ddeadvise ddeexecute ddeinit ddepoke dderequest ddeterminate ddeunadvise decrypt default define delfile dial dialadd dialcancel dialclass dialcount dialcreate dialdelete dialfind dialinsert dialload dialname dialnumber dialogbox  dialsave dialstats dir dirlistbox  dirpath disable diskfree dlgctrlwin destroy dlgevent  dlglist dlgsave dlgshow dlgupdate dlgwin dlgwinctrl dllcall dllfree dllload dllobject dllobjfile dllobjupdt dos editbox else elseif elifdef dlifndef enable encrypt edcase endcomment enddialog endfor endfunc  endgroup endif endproc endswitch endwhile errormsg execute exit  exitfor exitswitch exitwhile exitwindows faxcancel  faxlist faxpoll faxprint faxremove faxsend faxview  fclear fclose fcombobox fdelblock feditbox feof ferror fetch fflush fgetc fgets fileget fileset filetoclip fileview findfirst findnext finsblock firstask flength flistbox float floor fopen for fputc fputs fread fseek fstrfmt ftell ftext ftoa ftruncate fullpath func fwrite getcur getdir getinv getfile getfilename getpathname getvolume groupbox halt hangup help hotspot icon iconbutton if ifdef ifndef include integer intsltime isfile itemcount itemcreate itemfind itemname itemremove itoa kermserve keyflush keyget keystate keytoansi keytooem listbox RW2=locate long longjmp loopfor loopwhile ltimeelapsed  ltimeints ltimemisc ltimestring ltimestrs ltoa makepath mciexe memalloc memavial memchr memcmp memfree memgetc memicmp memmove memputc memread memrealloc memset memsize memwrite menubar menucheck menuitem menupopup menuselect menushow menustate metafile metafilebkg metakey mkdir monthstr mpause nexttask nullstrnumtostr objcoord objhide objmove objpaint objpointid objremove objshow oemtoansi oemtokey param pastetext pause pkmode pkrev pksend playback printalign prntattr printcapture printchar printer printfit printfont printmargin printstr printtabs printabstr proc profilerd profilewr pushbutton putenv pwexit pwtitlebar radiobutton radiogroup rand rename return rget rmdir rstrcmp run rxflush sbsave screentowin sdlgfopen sdlginput sdlgmsgbox sdlgsaveas sendfile sendkey sendkeystr senvkey set setjmp setpointer setup shell snapshot splitpath statclear statmsg strcat strchr strcmp strcpy strcspn strdelete strextract strfind strfmt strgetc stricmp string strinset strlen strlwr strncmp stricmp strputc strquote strrchr sttreplace strrev strright strsearch strset strsltime strspn strtoclip strtok strtonum strupdt strupr substr switch taskactivate stakexitst taskexit taskname taskpath taskwin termgetc termkey termmsg trmputc termputs termreadc termreads termreset termvkey termwritec termwrites text transmit txflush undef usermsg uwincreate uwinpaint uwinremove uwutowin waitfor waitquiet waituntil weekdaystr when RW3=while winactivate winclose wincoord winenabled winexists winfocus winhide winmaximize winminimize winmove winrestore winshow winsize winstate wintask wintext wintoscreen wintouwu winvisible xfercancel xlalin xlatout lxatstrRW4=endcaseSYM=#$*<>=+-&/STR='"EOL=;
+LANG=BASICRW1=ABS .ADDITEM .ADDNEW AND APPACTIVATE .APPEND .APPENDCHUNK .ARRANGE ASC AS ATN BASE BEEP BEGINTRANS BYVAL CCUR CDBL CINT CLNG CSNG CSTR CVAR CALL CASE CHDIR CHDRIVE CHOOSE CHR CHR$ .CIRCLE .CLEAR .CLONE .CLOSE CLOSE .CLS COMMAND COMMAND$ COMMITTRANS COMPACTDATABASE COMPARE CONST COS  CREATEDATABASE .CREATEDYNASET .CREATEQUERYDEF .CREATESNAPSHOT CURDIR CURDIR$ CVDATE DATE DATE$ DATEADD DATEDIFF DATEPART DATESERIAL DATEVALUE DAY DDB DECLARE DEFTYPE .DELETE .DELETEQUERYDEF DIM DIR DIR$ DO DOEVENTS DOUBLE .DRAG .EDIT ELSE END .ENDDOC ENVIRON ENVIRON$ EOF EQV ERASE ERR ERL ERROR$ ERROR .EXECUTE .EXECUTESQL EXIT EXP FALSE .FIELDSIZE FILEATTR FILECOPY FILEDATETIME FILELEN .FINDFIRST .FINDLAST .FINDNEXT .FINDPREVIOUS FIX FOR FORMAT FORMAT$ FREEFILE FREELOCKS FUNCTION FV GET GETATTR .GETCHUNK .GETDATA .GETFORMAT .GETTEXT GLOBAL GOSUB GOTO HEX HEX$ .HIDE HOUR IF IIF IMP OPERATOR INPUT INPUT$ INPUTBOX INPUTBOX$ INSTR INT INTEGER IPMT IRR IS ISDATE ISEMPTY ISNULL ISNUMERIC KILL LBOUND LCASE LCASE$ LEFT LEFT$ LEN LETRW2=LIKE LINE .LINE .LINKEXECUTE .LINKPOKE .LINKREQUEST .LINKSEND .LISTFIELDS .LISTINDEXES .LISTPARAMETERS .LISTTABLES LOAD LOADPICTURE LOC LOCK LOF LOG LONG LOOP LSET LTRIM LTRIM$ ME MID MID$ MINUTE MIRR MKDIR MOD MONTH .MOVE METHOD .MOVEFIRST .MOVELAST .MOVENEXT .MOVEPREVIOUS MSGBOX NAME NEW .NEWPAGE NEXT NOT NOW NPER NPV OCT OCT$ ON OPEN OPENDATABASE .OPENQUERYDEF METHOD .OPENTABLE METHOD OPTION OR PARTITION PMT .POINT .POPUPMENU PPMT PRINT .PRINT .PRINTFORM PRIVATE .PSET PUT PV QBCOLOR RANDOMIZE RATE REDIM .REFRESH REGISTERDATABASE REM .REMOVEITEM REPAIRDATABASE RESET RESUME RETURN RGB RIGHT RIGHT$ RMDIR RND .ROLLBACK ROLLBACK RSET RTRIM RTRIM$ SAVEPICTURE .SCALE SECOND SEEK SELECT SENDKEYS SET SETATTR .SETDATA SETDATAACCESSOPTION SETDEFAULTWORKSPACE .SETFOCUS .SETTEXT SGN SHELL .SHOW SIN SINGLE SLN SPACE SPACE$ SPC SQR STATIC STEP STOP STR STR$ STRCOMP STRING STRING$ STRING SUB SWITCH SYD TAB TAN .TEXTHEIGHT .TEXTWIDTH THEN TIME TIME$ TIMER TIMESERIAL TIMEVALUE TO TRIM TRIM$ TRUE TYPERW3=UBOUND UCASE UCASE$ UNLOAD UNLOCK .UPDATE .UPDATECONTROLS .UPDATERECORD VAL VARIANT VARTYPE WEEKDAY WEND WHILE WIDTH WRITE XOR YEAR .ZORDERSYM=&*+-/\^<>=STR="EOL='EOL2=REM
+LANG=BATCHRW1=SET DOSKEY COPY PROMPT VERIFY ECHO PAUSE GOTO IF CALL FOR CD PATH DEL MD RD REN CLSRW2=ERRORLEVEL ATTRIBSYM=@EOL=REMEOL2=:EOC2=-1STR="'
+LANG=CCS=1RW1=asm auto bool break case catch cdecl char class const continue _cs default define defined delete do double _ds elif else endif enum error _es _export extern far float for friend goto huge if ifdef ifndef include inline int interrupt _loadds long near mutant new operator pascal private protected publicRW2=pragma register _regparam return _saveregs _seg short signed sizeof _ss static struct switch template this typedef undef union unsigned virtual void volatile whileSYM={}[]().=+-*/:;<>|&#,~!^?STR='"LIT=\\OC1=/*CC1=*/EOL=//TAGFILE=<~TagPath>C.TAGCFGMAC=C^CSetProperties /L=C/TD=1INIMAC=C^CInitINDMAC=C^CIndentMATMAC=C^CMatchFTMAC=C^CFindTagPROP=/EC=41/IS=0/O=4403/CI=2
+LANG=CIULRW1=IF IFRC ELSE ENDIF QUIT GINT GSTR LOADMAC RUNMAC DAT SEC CMD MNU TBX BTN VERIFY NOMSGBOXRW2=SET CREATE INSERT DUPS FUNC FILE FIELDS RECNO PAGE REPLACE UPDATE WRKDIR LOG ENDMAC CMDTRANSRW3=COPYFILE DELFILE RENFILE LOADFILE MKDIR MD COMPILE EXEC REGDLL DELPAGESTR='"OC1=/*CC1=*/EOL=;EOC=-1
+LANG=CMACRW1=break call case char continue default define do else endif for global goto if ifdef ifndef include int macro macro_file prototype real ret return str struct switch trans trans2 undef void whileRW2=asciiz byte dword int16 structure word import import32SYM={}=+-[]()*/:;<>|&#.,$!STR='"LIT=\\OC1=/*CC1=*/EOL=//TAGFILE=<~TagPath>CMac.TagCFGMAC=C^CSetProperties /L=CMACINIMAC=CMAC^CmacInitINDMAC=C^CIndent /LP=CMACMATMAC=C^CMatch /LP=CMACFTMAC=CMAC^CmacFindTagPROP=/EC=41/IS=0/O=55/CI=2
+LANG=COBOLRW1=ACCEPT ACCESS ADD ADVANCING AFTER ALL ALPHBET ALPHABETIC ALPHABETIC-LOWER ALPHABETIC-UPPER ALPHANUMERIC ALPHANUMERIC-EDITED ALSO ALTER ALTERNATE AND ANY ARE AREA AREAS ASCENDING ASSIGN AT AUTHOR BEFORE BINARY BLANK BLOCK BOTTOM BY CALL CANCEL CD CF CH CHARACTER CHARACTERS CLASS CLOCK-UNITS CLOSE COBOL CODE CODE-SET COLLATING COLUMN COMMA COMMON COMMUNICATION COMP COMPUTATIONAL COMPUTE CONFIGURATION CONTAINS CONTENT CONTINUE CONTROL CONTROLS CONVERTING COPY CORR CORRESPONDING COUNT CURRENCY DATA DATE DATE-COMPILED DATE-WRITTEN DAY DAY-OF-WEEK DE DEBUG-CONTENTS DEBUG-ITEM DEBUG-LINE DEBUG-NAME DEBUB-SUB1 DEBUG-SUB2 DEBUG-SUB3 DEBUGGING DECIMAL-POINT DECLARATIVES DELETE DELIMITED DELIMITER DEPENDING DESCENDING DESTINATION DETAIL DISABLE DISPLAY DIVIDE DIVISION DOWN DUPLICATE DYNAMIC EGI ELSE EMI ENABLE END END-ADD END-CALL END-COMPUTE END-DELETE END-DIVIDE END-EVALUATE END-IF END-MULTIPLY END-OF-PAGE END-PERFORM END-READ END-RECIEVE END-RETURN END-REWRITE END-SEARCH END-START END-STRING END-SUBSTRACT END-UNSTRING END-WRITE ENTER ENVIRONMENT EOP EQUAL ERROR ESI EVALUATE EVERY EXCEPTION EXIT EXTEND EXTERNAL FALSE FD FILE FILE-CONTROL FILLER FINAL FIRST FOOTING FOR FROM FUNCTION GENERATE GIVING GLOVAL GO GREATER GROUP HEADING HIGH-VALUE HIGH-VALUES I-O I-O-CONTROL IDENTIFICATION IF IN INDEX INDEXED INDICATE INITIAL INITIALIZE INITIATE INPUT INPUT-OUTPUT INSPECT INSTALLATION INTO INVALID JUST JUSTIFIED KEY LABEL LAST LEADING LEFT LENGTH LESS LIMIT LIMITS LINAGE LINAGE-COUNTER LINE RW2=LINE-COUNTER LINES LINKAGE LICK LOW-VALUE LOW-VALUES MEMORY MERGE MESSAGE MODE MODULES MORE MULTIPLE MULTIPLY NATIVE NEGATIVE NEXT NO NOT NUMBER NUMERIC NUMERIC-EDITED OBJECT-COMPUTER OCCURS OF OFF OMITTED ON OPEN OPTIONAL OR ORDER ORGANIZATION OTHER OUTPUT OVERFLOW PACKED-DECIMAL PADDING PAGE PAGE-COUNTER PERFORM PF PH PIC PICTURE PLUS POINTER POSITION POSITIVE PRINTING PROCEDURE PROCEDURES PROCEED PROGRAM PROGRAM-ID PURGE QUEUE QUOTE QUOTES RANDOM RD READ RECIEVE RECORD RECORDS REDEFINES REEL REFERENCE REFERENCES RELATIVE RELEASE REMAINDER REMOVAL RENAMES REPLACE REPLACING REPORT REPORTING REPORTS RERUN RESERVE RETURN REVERSED REWIND REWRITE RF RH RIGHT ROUNDED RUN SAME SD SEARCH SECTION SECURITY SEGMENT SEGMENT-LIMIT SELECT SEND SENTENCE SEPARATE SEQUENCE SEQUENTIAL SET SIGN SIZE SORT SORT-MERGE SOURCE SOURCE-COMPUTER SPACE SPACES SPECIAL-NAMES STANDARD STANDARD-1 STANDARD-2 START STATUS STOP STRING SUB-QUEUE-1 SUB-QUEUE-2 SUB-QUEUE-3 SUBTRACT SUM SUPPRESS SYMBOLIC SYNC SYNCHRONIZED TALLYING TAPE TERMINAL TERMINATE TEST TEXT THAN THEN THROUGH THRU TIME TIMES TO TOP TRAILING TRUE TYPE UNIT UNSTRING UNTIL UP UPON USAGE USE USING VALUE VALUES VARYING WHEN WITH WORDS WORKING-STORAGE WRTIE ZERO ZEROES ZEROSRW3=MOVE WRITE EOF PAGES DECIMAL POINT IS CONSOLE CRT SCREEN LOCK CURSOR ALPHABET FROMSYM=<>=+-().STR='"EOL=*EOC=7INIMAC=Cobol^CobSetXINDMAC=Cobol^Cob_IndMATMAC=LangDoMatch /LP=COB/HI=1
+LANG=DATAFLEXRW1=BEGIN END FOR LOOP WHILE IF ELSE PROCEDURE END_PROCEDURE FUNCTION END_FUNCTION OBJECT END_OBJECT CLASS END_CLASS FOR_ALL END_FOR_ALL ITEM_LIST END_ITEM_LIST BEGIN_ROW END_ROW BEGIN_CONSTRAINTS END_CONSTRAINTS CONSTRAIN ENTRY_ITEM ON_ITEM SAVE SAVERECORD INKEY GETDSKINFO DIRECT_OUTPUT CLOSE_OUTPUT CHANNEL WRITE WRITELN FILELIST DELEGATE REPLACE REGISTER_OBJECT SET_DEFAULT_MAP_MODE GET_DEFAULT_MAP_MODERW2=LOCK UNLOCK REREAD PROCEDURE_RETURN FUNCTION_RETURN SEND CHAIN WAIT RUNPROGRAM IS AN A TO INTEGER LOCAL STRING NUMBER DATE SET GET ITEM RETURNS FORWARD NOT STATUS MOVE CLEAR FIND EQ BY NE GT LT GE LE OPEN UI_ACCEPT START_UI POPUP INDEX MAIN_FILE USING IN EXTERNAL_FUNCTION DWORD SHORT HANDLE CHAR TYPE END_TYPE FIELD PUT GETBUFF FILLTYPE GET_ATTRIBUTE SET_ATTRIBUTE REGISTER_PROCEDURE REGISTER_FUNCTIONRW3=USE ERROR INCLUDE INHERIT_SCREEN NAME_OBJECT CREATE_MENU END_MENU ON_KEY PRIVATE PUBLIC UPDATING TRUE FALSE ABSOLUTE RELATIVE RING ACTION_BAR NO_IMAGE OF COMMAND ENDCOMMAND IFDEF ENDIF CURRENT_OBJECT DESKTOP PROPERTY MEMORY REPEAT UNTIL INCREMENT AND OR BROADCAST LOW HIRW4=CAPSLOCK AUTOFIND FINDREQ CHECK NOPUT DISPLAYONLY IPROMPT IVALIDATE IEXIT IENTRY IZOOM AUTOBACK AUTORETURN AUTOCLEAR REQUIRED SKIPFOUND RETAIN DECREMENT RELATE ATTACH APPEND BEGIN_PULL_DOWN END_PULL_DOWN FROM DIRECT_INPUT CLOSE CLOSE_INPUT SHOWLN READLN ABORTSYM=<>~=+-*/#&()[];{}.!,STR='"EOL=//PROP=/EC=41/IS=1/O=13
+LANG=DBASERW1=if do while endif enddo return procedure function proc func case to for next local static create exportRW2=method class constructor destructor endclass protected defered end include use iif with else store parametersRW3=otherwise endcase elseifSYM=*=+-/[].,$#<>:;(){}?@STR='"LIT=\OC1=/*CC1=*/EOL=//EOL2=*EOC2=-1TAGFILE=<~TagPath>DBase.TagCFGMAC=DBASE^DbaSetProperties /L=DBaseINIMAC=DBASE^DbaInitINDMAC=DBASE^DbaIndentMATMAC=DBASE^DbaMatchFTMAC=DBASE^DbaFindTagPROP=/O=3
+LANG=DELPHIRW1=absolute abstract and ansichar ansistring array as asm assembler automated begin boolean byte bytebool cardinal case cdecl char class comp const constructor currency default destructor dispid div do double downto dynamic else end except exit export exports extended external far file finalization finally for forward function goto if implementation in index inherited initialization inline integer interface is label library longbool longint message mod name near nil nodefault not null object of on or ord overrideRW2=packed pansichar pascal pchar pointer private procedure program property protected public published pwidechar raise read real record register repeat resident set shl shortint shortstring shr single smallint stdcall stored string then to try type unassigned unit until uses var variant virtual while widechar with word wordbool write xorRW3=breakSYM=@()=*+-/[].,#^{}$<>:;NC=$STR='OC1={CC1=}OC2=(*CC2=*)EOL=//TAGFILE=<~TagPath>DELPHI.TAGCFGMAC=Pascal^PasSetProperties /L=DelphiINIMAC=Pascal^PasInitINDMAC=Pascal^PasIndentMATMAC=Pascal^PasMatchFTMAC=Pascal^PasFindTagPROP=/O=15/IS=0/PI=0
+LANG=FORTRAN-77RW1=bits bool call character close compiler continue data define dimension do doubleprecision else elseif end endif equivalence format function go goto if implicit include inquire integer logical mod open parameter print program read real return stop subroutine substr then to writeRW2=and eq false ge gt le lt ne or trueSYM=()*+,-./:=STR='EOL=CEOC=1EOL2=@EOL3=*EOC3=1EOC4=73TAGFILE=<~TagPath>F77.TAGCFGMAC=FORTRAN^ForSetProperties /L=FORTRAN-77INIMAC=FORTRAN^F77InitINDMAC=FORTRAN^F77IndentMATMAC=FORTRAN^F77Match /HI=1FTMAC=FORTRAN^F77FindTagPROP=/EC=41/O=7
+LANG=HTMLRW1=NOTE: Keywords for HTML are set from the tag databases, not from these fieldsSYM=<>&/=^%?NC=#STR="'OC1=<!CC1=>CFGMAC=wl_ConfigureINIMAC=wl_FileInitINDMAC=wl_SmartIndentMATMAC=wl_HtmlMatchMENUMAC=wl_ContextMenuFORMATMAC=wl_FormatAPROP=LANG=HTML||STYLE=1||STYLE_DEF=CSS||COLDFUSION=1||CFSCRIPT_DEF=CFSCRIPT||CFQUERY_DEF=SQL||SCRIPT=1||SCRIPT_DEF=JavaScript||ASP=1||ASP_DEF=VBSCRIPT||PHP=1||PHP_DEF=PHPPROP=/EC=41/IS=1/O=15/CI=0
+LANG=JAVACS=1RW1=abstract boolean break byte case cast catch char class const continue default define do double elif else endif extends false final finally float for future generic goto if ifdef ifndef implements import include trueRW2=inner instanceof int interface long native new null operator outer package private protected public rest return short static string super switch synchronized this throw throws transient try undef var void volatile whileSYM={}[]().=+-*/:;<>|&#,~!^?STR='"LIT=\\OC1=/*CC1=*/EOL=//TAGFILE=<~TagPath>Java.tagCFGMAC=C^CSetProperties /L=JavaINIMAC=C^CInitINDMAC=C^CIndentMATMAC=C^CMatchFTMAC=Java^JavaFindTagPROP=/EC=41/IS=0/O=307/CI=0
+LANG=JAVASCRIPTCS=1RW1=abstract boolean break byte case catch char class const continue default do double else extends false final finally float for functionRW2=goto if implements import in instanceof int interface long native new null package private protected public return short static super switch synchronized this throw throws transient true try var void while withSYM={}[]().=+-*/:;<>|&#,~!^?STR='"LIT=\\OC1=/*CC1=*/EOL=//PROP=/EC=41/IS=0/O=15CFGMAC=C^CSetProperties /L=JavaScriptINIMAC=C^CInitINDMAC=C^CIndent /L=JavaScriptMATMAC=C^CMatchPROP=/EC=41/IS=0/O=51/CI=0
+LANG=MOCHACS=1RW1=break case catch commandHandler const continue default define do else endif extends finally for if ifdef ifndef include inherits instanceof messageHandler new pathfindHandler private protected public return super switch throw throws trigger try whileRW2=attrib_mod attribute boolean byte char converse_db dictionary double draft_schematic emote_id float int location long modifiable_float modifiable_int modifiable_string_id obj_id obj_var obj_var_list region resizeable short skill_id slot_data string string_id template_id unknown voidRW3=false null true SCRIPT_CONTINUE SCRIPT_OVERRIDERW4=GetStateDescription OnAboutToBeTransferred OnAboutToDie OnAboutToLoseItem OnAboutToReceiveItem OnAddedToWorld OnAttach OnTargeted OnUntargeted OnBeingTransferred OnChangedPosture OnCreatureDamaged OnObjectDamaged OnCombatLoop OnCraftingDone OnCraftingExperiment OnDeath OnDecay OnDestroyed OnDetach OnEndNpcConversation OnEnteredCombat OnExitedCombat OnEnteredDuel OnExitedDuel OnEnterSwimming OnExitSwimming OnGetAttributes OnHearSpeech OnIncapacitated OnIncapacitateTarget OnInitialize OnInspected OnItemEquip OnItemUnequip OnLoadedFromDb OnLogin OnLogout OnLostItem OnLostTarget OnMadeAuthoritative OnManufactureObject OnManufacturingSchematicCreation OnObjectMenuRequest OnObjectMenuSelect OnPvpChanged OnAttackerCombatAction OnDefenderCombatAction OnWeaponCombatAction OnNpcConversationResponse OnObjectDisabled OnOutOfAmmo OnReachedMax OnReceivedItem OnRemovingFromWorld OnRequestDraftSchematics OnSawEmote OnServerTransfer OnSpeaking OnStartNpcConversation OnTargetEquipsItem OnTargetUnequipsItem OnTransferred OnUnloadedFromMemorySYM=.=+-*/:;<>|&#,~!^?STR='"LIT=\\OC1=/*CC1=*/EOL=//TAGFILE=<~TagPath>Mocha.tagCFGMAC=C^CSetProperties /L=MochaINIMAC=C^CInitINDMAC=C^CIndentMATMAC=C^CMatchFTMAC=Mocha^MochaFindTagPROP=/EC=41/IS=1/O=791/CI=0
+LANG=MODULA_2CS=1RW1=AND ARRAY BEGIN BY CASE CONST DEFINITION DIV DO ELSE ELSIF END EXIT EXPORT FOR FROM IF IMPLEMENTATION IMPORT IN LOOP MOD MODULE NOT OF OR POINTER PROCEDURE QUALIFIED RECORD REPEAT RETURN SET THEN TO TYPE UNTIL VAR WHILE WITHRW2=INTEGER CARDINAL LONGINT LONGCARD REAL LONGREAL BOOLEAN CHAR BITSET ABS CAP CHR DEC DISPOSE EXCL FLOAT HALT HIGH INC INCL LONG LONGFLOAT LONGORD LONGTRUNC MAX MIN NEW ODD ORD SHORT SIZE TRUNC VALSYM=+-*/&~:=.,;()[]{}|^<>#%STR='"OC1=(*CC1=*)TAGFILE=<~TagPath>MODULA_2.TAGCFGMAC=MODULA_2^M2SetProperties /L=Modula-2INIMAC=MODULA_2^M2InitINDMAC=MODULA_2^M2IndentMATMAC=MDOULA_2^M2MatchFTMAC=MODULA_2^M2FindTagPROP=/O=7/IS=0/PI=0
+LANG=MULTI_EDITRW1=AND DO ELSE ELSIF END END_MACRO IF MOD NOT OR THEN WHILE DEF_INT DEF_REAL DEF_STR DEF_CHAR XOR SHL SHR MACRO MACRO_FILE GOTO RET INCLUDESYM=+-*/:=,;()[]{}<>#OC1={CC1=}STR='
+LANG=NONE
+LANG=PASCALRW1=and array asm begin boolean byte case char comp const constructor destructor div do double downto else end exit extended external file for function goto if implementation integer interface label longint mod nil not object of or ordRW2=private procedure program real record repeat shl shr shortint single string then to type unit until uses var while with word xorRW3=ASSEMBLERSYM=@()=*+-/[].,$#<>:;STR='OC1={CC1=}OC2=(*CC2=*)TAGFILE=<~TagPath>PASCAL.TAGCFGMAC=Pascal^PasSetProperties /L=PascalINIMAC=Pascal^PasInitINDMAC=Pascal^PasIndentMATMAC=Pascal^PasMatchFTMAC=Pascal^PasFindTagPROP=/O=15/IS=0/PI=0
+LANG=PERLCS=1RW1=break chdir chmod close closedir continue defined delete die do else elsif eq eval exit for foreach goto grep if inline lastRW2=local my ne next open opendir or package print printf push readdir require rename return split stat STDERR STDIN STDOUT sub unless use whileRW3=$ENV chop eof redo select sleep splice sprintf system sysread syswrite umask undef unlink until utime warn writeRW4=chomp time join $#SYM={}[]().=+-*/:;<>|&#,~!^?%$@STR='"LIT=\EOL=#OC1==headCC1==cutPROP=/EC=41/IS=0/O=563/CI=0CFGMAC=C^CSetProperties /L=PerlINIMAC=C^CInitINDMAC=C^CIndentMATMAC=C^CMatchFTMAC=Perl^PerlFindTagTAGFILE=<~TagPath>Perl.Tag
+LANG=PRG
+LANG=REXXRW1=address arg by call digits do drop else end engineering error exit expose failure for forever form fuzz halt if interpret iterate leave nop notready novalue numeric off on options otherwiseRW2=parse procedure pull push queue return say scientific select signal source syntax then to trace until upper value var version when while withSYM=%&()*+,-/;<=>\|STR='"OC1=/*CC1=*/PROP=/EC=41/IS=0/O=13INIMAC=REXX^RexSetXMATMAC=LangDoMatch /LP=Rex/HI=1
+LANG=SQLCS=1RW1=ABORT ACCEPT ACCESS ADD ALL ALTER AND ANY ARRAY AS ASC ASSERT ASSIGN AT AUTHORIZATION AVG BEGIN BETWEEN BODY BOOLEAN BREAK BROWSE BULK BY CASE CHAR CHAR_BASE CHECK CHECKPOINT CLOSE CLUSTER CLUSTERED CLUSTERS COLAUTH COLUMNS COMMIT COMMITTED COMPRESS COMPUTE CONFIRM CONNECT CONSTANT CONSTRAINT CONTINUE CONVERT COUNT CRASH CREATE CURRENT CURSOR DATABASE DATA_BASE DATE DBA DBCC DEALLOCATE DEBUGOFF DEBUGON DECLARE DEFAULT DEFINITION DELAY DELETE DELTA DESC DIGITS DISK DISPOSE DISTINCT DO DOUBLE DROP DUMMY DUMP ELSE ELSIF END ENTRY ERRLVL ERROREXIT EXCEPT EXCEPTION EXCEPTION_INIT EXEC EXECUTE EXISTS EXIT FALSE FETCH FLOPPY FOR FOREIGN FORM FROM FUNCTION GENERIC GO GOTO GRANT GROUP HAVING HOLDLOCK IDENTIFIED IDENTITY IDENTITYCOL IF IN INDEX INDEXES INDICATOR INSENSITIVE INSERT INTERSECT INTO IS KEY KILL LEVEL LIKE LIMITED LOAD LOOP MAX MIN MINUS MOD NEW NOCHECK NOCOMPRESS NONCLUSTERED NOT NULL NULLIF NUMBER NUMBER_BASE OF OFF OFFSETS ON ONCE ONLY OPEN OPTION OR ORDER OTHERS OUT OVER PACKAGE PARTITION PCTFREE PERM PIPE PRAGMA PREPARE PRIMARY PRINT PRIOR PRIVATE PROC PROCEDURE PUBLIC RAISE RAISERROR RANGE READ RECONFIGURE RECORD REFERENCES RELEASE REM RENAME REPLACE REPLICATION RESOURCE RETURN REVERSE REVOKE ROLLBACK ROWCOUNT ROWNUM ROWTYPE RULE RUN SAVE SAVEPOINT SCHEMA SCROLL SELECT SEPARATE SET SETUSER SHUTDOWN SIZE SOME SPACE SQL SQLCODE SQLERRM START STATEMENT STATISTICS STDDEV SUBTYPE SUMRW2=TABAUTH TABLE TABLES TAPE TASK TEMP TEMPORARY TERMINATE TEXTSIZE THEN TO TRAN TRANSACTION TRIGGER TRUE TRUNCATE TSEQUAL TYPE UNCOMMITTED UNION UNIQUE UPDATE UPDATETEXT USE USER VALUES VARCHAR VARCHAR2 VARIANCE VARYING VIEW VIEWS WAITFOR WHEN WHERE WHILE WITH WORK WRITETEXT XORRW3=RW4=SYM=!%&()*+,-./<=>@^|~STR='"OC1=/*CC1=*/EOL=--CFGMAC=Sql^SqlSetProperties /L=SqlINIMAC=Sql^SqlInitINDMAC=Sql^SqlIndentMATMAC=Sql^SqlMatchPROP=/IS=0/PI=0/O=5
+LANG=VBSCRIPTRW1=Call Case Const Dim Do Each Else ElseIf End Erase Error Exit Explicit For Function If In Loop Next On Option Public Private Randomize ReDim Resume Select Set Step Sub To Then Wend WhileRW2=Empty False Nothing Null True And Eqv Imp Is Mod Not Or XorRW3=Abs Array Asc Atn CBool CByte CCur CDate CDbl Chr Cint CLng Cos CreateObject CSng CStr Date DateAdd DateDiff DatePart DateSerial DateValue Day Exp Filter Fix FormatCurrency FormatDateTime FormatNumber FormatPercent GetObject Hex Hour InputBox InStr InStr InStrRev Int IsArray IsDate IsEmpty IsNull IsNumeric IsObject Join LBound LCase Left Len LoadPicture Log LTrim Mid Minute Month MonthName MsgBox Now Oct Replace RGB Right Rnd Round RTrim ScriptEngine ScriptEngineBuildVersion ScriptEngineMajorVersion ScriptEngineMinorVersion Second Sgn Sin Space Split Sqr StrComp String StrReverse Tan Time TimeSerial TimeValue Trim TypeName UBound UCase VarType Weekday WeekdayName YearRW4=Dictionary Err Add AddFolders BuildPath Clear Close Copy CopyFile CopyFolder CreateFolder CreateTextFile Delete DeleteFile DeleteFolder DriveExists Exists Write WriteBlankLines WriteLine AtEndOfLine AtEndOfStream Attributes AvailableSpace Column CompareMode Count DateCreated DateLastAccessed DateLastModified Description Drive DriveLetter Drives DriveType Type VolumeNameSYM=$%!#()^-*/+=<>&\,STR="EOL='EOL2=Rem EOC2=-1TAGFILE=<~TagPath>VBScript.tagCFGMAC=VBasic^VBasSetProperties /L=VBScriptINIMAC=VBasic^VBasInitINDMAC=VBasic^VBasIndentMATMAC=VBasic^VBasMatchFTMAC=VBasic^VBasFindTagPROP=/EC=41/O=35
+LANG=VBASICRW1=As Beep Binary ByRef ByVal Call Case ChDir ChDrive Close Const Date Declare DefBool DefByte DefInt DefLng DefCur DefSng DefDbl DefDec DefDate DefStr DefObj DefVar DeleteSetting Dim Do Each Else ElseIf End Enum Erase Error Event Exit Explicit FileCopy For Friend Function Get GoSub GoTo If Implements Input In Kill Let Lib Line Load Lock Loop LSet Me Mid MkDir Name New Next On Open Option Optional ParamArray Print Private Property Public Put RaiseEvent Randomize ReDim Reset Resume RmDir RSet SavePicture SaveSetting Seek Select SendKeys Set SetAttr Static Step Stop Sub To Then Time Type Unload Unlock Until Wend While Width With WithEvents WriteRW2=Empty False Nothing Null True AddressOf And Eqv Imp Is Like Mod Not Or XorRW3=Abs Array Asc Atn CallByName CBool CByte CCur CDate CDbl Choose Chr Cint CLng Command Cos CreateObject CSng CStr CurDir CVar CVErr DateAdd DateDiff DatePart DateSerial DateValue Day DDB Dir DoEvents Environ EOF Exp FileAttr FileDateTime FileLen Filter Fix Format FormatCurrency FormatDateTime FormatNumber FormatPercent FreeFile FV GetAllSettings GetAttr GetObject GetSetting Hex Hour IIf InputBox InStr InStr InStrRev Int IPmt IRR IsArray IsDate IsEmpty IsError IsMissing IsNull IsNumeric IsObject Join LBound LCase Left Len LoadPicture LoadResData LoadResPicture LoadResString Loc LOF Log LTrim Minute MIRR Month MonthName MsgBox Now NPer NPV Oct Partition Pmt PPmt PV QBColor Rate Replace RGB Right Rnd Round RTrim Second Sgn Shell Sin SLN Space Spc Split Sqr Str StrComp StrConv String StrReverse Switch SYD Tab Tan Timer TimeSerial TimeValue Trim TypeName UBound UCase Val VarType Weekday WeekdayName YearRW4=Dictionary Err Add AddFolders BuildPath Clear Copy CopyFile CopyFolder CreateFolder CreateTextFile Delete DeleteFile DeleteFolder DriveExists Exists WriteBlankLines WriteLine AtEndOfLine AtEndOfStream Attributes AvailableSpace Column CompareMode Count DateCreated DateLastAccessed DateLastModified Description Drive DriveLetter Drives DriveType VolumeNameSYM=$%!#()^-*/+=<>&\,STR="EOL='EOL2=Rem EOC2=-1TAGFILE=<~TagPath>VBasic.tagCFGMAC=VBasic^VBasSetProperties /L=VBasicINIMAC=VBasic^VBasInitINDMAC=VBasic^VBasIndentMATMAC=VBasic^VBasMatchFTMAC=VBasic^VBasFindTagPROP=/EC=41/O=35
+EXT.DB
+EXT=ADA ADS ADBDOC=0IND=3ATX=1UF=0TS=3RM=80FORMAT=Edit format lineTX=0LS=ADATEMPLATE=ADACC=NONEOEM=0FT=1BRL=16
+EXT=ASMDOC=0IND=2LS=ASMTEMPLATE=ASMTS=8RM=132UF=0FORMAT=Edit format line=Edit format lineFT=1
+EXT=BAS CLS FRMDOC=0IND=3ATX=1UF=0TS=2RM=128FORMAT=Edit format lineTX=0LS=VBASICTEMPLATE=VBASICOEM=0FT=1
+EXT=C CPP HDOC=0IND=3LS=CTEMPLATE=CATX=1TS=4RM=128UF=0FORMAT=Edit format lineFT=1
+EXT=CBLDOC=0IND=3ATX=1UF=0TS=8RM=254FORMAT=Edit format lineLS=COBOLTEMPLATE=COBOLCC=Black Background 1FO=/NAME=Courier New/SIZE=-15/WT=400/SET=0FA=/NAME=Courier New/SIZE=-15/WT=400/SET=0FT=1
+EXT=CFG DAT DEL UPDDOC=0IND=2LS=CIULCC=DefaultTS=2RM=2048UF=0FT=0BRL=78
+EXT=CMD REX ERX VRXDOC=0IND=2ATX=1UF=0TS=2RM=78FORMAT=Edit format lineLS=REXXTEMPLATE=REXXCC=DefaultOEM=0FT=1BRL=78HLP=<~!rxbook_inf>;<~!orexx_inf>ATEMP=RxExtras
+EXT=DEFDOC=0IND=3LS=MODULA_2TEMPLATE=MODULA_2TS=2RM=254UF=0FORMAT=Edit format lineFORMAT=Edit format lineFT=1
+EXT=DEFAULTDOC=0IND=1UF=0TS=4RM=254FORMAT=Edit format lineTX=0LS=NONEOEM=0FT=1
+EXT=DOCDOC=1IND=2LS=NONEWW=1TS=8RM=72UF=0FORMAT=Edit format lineFORMAT=Edit format lineFT=1
+EXT=F FORDOC=0IND=3ATX=1UF=1TS=2RM=72FORMAT=                      LS=FORTRAN-77TEMPLATE=FORTRANOEM=0FT=1
+EXT=GIF JPGDOC=0IND=1UF=0TS=8RM=254FORMAT=Edit format lineLS=GRAPHICOEM=0FT=4
+EXT=HTM HTML ASP CDF SHTMLDOC=0IND=3UF=0TS=2RM=78FORMAT=Edit format lineLS=HTMLTEMPLATE=WEBLAIROEM=0FT=1HLP=<~!WL_HtmlHelp>
+EXT=HTCDOC=0IND=2WW=1UF=0TS=2RM=78FORMAT=Edit format lineLS=HTMLTEMPLATE=WEBLAIROEM=0FT=1HLP=<~!HTML_Hlp>
+EXT=JAV JAVADOC=0IND=3ATX=1UF=0TS=4RM=80FORMAT=Edit format lineTX=-1LS=JAVATEMPLATE=JAVAOEM=0FT=1
+EXT=MODDOC=0IND=3LS=MODULA_2TEMPLATE=MODULA_2TS=2RM=128UF=0FORMAT=Edit format lineFORMAT=Edit format lineFT=1
+EXT=PAS INC DPRDOC=0IND=3LS=DELPHITEMPLATE=DELPHIATX=1TS=2RM=128UF=0FORMAT=Edit format lineFT=1
+EXT=PLDOC=0IND=3ATX=1UF=0TS=4RM=76FORMAT=Edit format lineLS=PERLTEMPLATE=perlOEM=0FT=3
+EXT=PRGDOC=0IND=3LS=DBASETEMPLATE=DBASETS=2RM=128UF=0FORMAT=Edit format lineFORMAT=Edit format lineFT=1
+EXT=S SHDOC=0IND=3LS=CMACTEMPLATE=CMACATX=1TS=2RM=128UF=0FORMAT=Edit format lineDIR=<ME_PATH>SRCHLP=CMACWIN.HLPFT=1
+EXT=SCRIPT SCRIPTLIBDOC=0IND=3ATX=1UF=0TS=4RM=80FORMAT=Edit format lineTX=-1LS=MOCHATEMPLATE=MochaCC=MochaOEM=0FT=1
+EXT=SQL QRYDOC=0IND=3ATX=1UF=0TS=4RM=75FORMAT=Edit format lineLS=SQLTEMPLATE=SQLOEM=0FT=1
+EXT=SRC PKG DS VW SL RPTDOC=0IND=2ATX=1UF=0TS=4RM=500FORMAT=Edit format lineLS=DATAFLEXTEMPLATE=DATAFLEXCC=DefaultOEM=-1FT=1BRL=78HLP=DFWHELP.HLP
+EXT=TMPDOC=0IND=1LS=NONECC=DefaultTS=8RM=78UF=0FORMAT=Edit format lineFORMAT=Edit format lineFT=1BRL=78
+EXT=TXTDOC=0IND=2LS=NONEWW=1TS=8RM=79UF=0FORMAT=Edit format line=Edit format lineFT=1
+EXT=WASDOC=0IND=2ATX=1UF=0TS=4RM=254FORMAT=Edit format lineLS=ASPECTTEMPLATE=aspectOEM=0FT=2
+EXT=DFMDOC=0IND=3ATX=1UF=0TS=2RM=80FORMAT=Edit format lineTX=0LS=DELPHITEMPLATE=DELPHIOEM=0FT=2MAC=Delphi^Delphi_FormToTextSMAC=Delphi^Delphi_TextToForm
+CBL.PGM
+PN=AcuCobol GT CompileCL=ccbl32.exe <LFN> <NAME>.<EXT>WORKLOC=0PT=AcuCobolEXEID=5SHOW=0
+PN=MicroFocus Cobol - UnixCL=<FILE>.ERRWORKLOC=0PT=Micro Focus Unix COBOLEXEID=1SHOW=0EFO=1
+PRG.PGM
+PN=Make appCL=MAKE -fmakePT=Clipper 5CS=3
+PN=Custom Clipper 5 CompileCL=Clipper <FILE> /B /WPT=Clipper 5CS=0SA=1
+PN=DBASECL=dbase <FILE>PT=NONECS=1SA=1
+PN=Clipper 5 CompileCL=Clipper <FILE>PT=Clipper 5SM=5SA=1
+C CPP H.PGM
+PN=MAKE this fileCL=MAKE -f<FILE>.MAKPT=Borland C++WORKLOC=0SHOW=0SA=1
+PN=Turbo DebugCL=TDW <FILE>.EXECS=0DP=1
+PN=Turbo C CompileCL=TCC -c <FILE>PT=Turbo CSM=1SA=1CS=3
+PN=Turbo C Debug CompileCL=TCC -c -v <FILE>PT=Turbo CCS=3SA=1CP=1
+PN=Turbo C++ CompileCL=TCC -c <FILE>.<EXT>PT=Turbo C++SM=1SA=1CS=3
+PN=Turbo C++ Debug CompileCL=TCC -c -v <FILE>.<EXT>PT=Turbo C++SM=1SA=1CS=3
+PN=Borland C/C++ CompileCL=BCC -c <FILE>.<EXT>PT=Borland C++CS=3SA=1
+PN=Borland C/C++ Debug CompileCL=BCC -c -v <FILE>.<EXT>PT=Borland C++CS=3SA=1
+PN=Borland C/C++ Windows CompileCL=BCC -c -W -a- <FILE>.<EXT>PT=Borland C++SM=1SA=1CS=3
+PN=Microsoft C/C++ CompileCL=CL /c <FILE>.<EXT>PT=MICROSOFTWORKLOC=0SHOW=0SA=1
+PN=Microsoft C/C++ Debug CompileCL=CL /c /Zi <FILE>.<EXT>PT=MICROSOFT CWORKLOC=0SHOW=0SA=1
+PN=Microsoft C/C++ Windows CompileCL=CL /c /Gw /Zp <FILE>.<EXT>PT=MICROSOFT CWORKLOC=0SHOW=0SA=1
+PN=Watcom C/C++ CompileCL=WCL -c <FILE>.<EXT>PT=WATCOM CWORKLOC=0SHOW=0SA=1
+PN=Watcom C/C++ Debug CompileCL=WCL -c -d2 <FILE>.<EXT>PT=WATCOM CWORKLOC=0SHOW=0SA=1
+PN=Watcom C/C++ Windows CompileCL=WCL -c -zw <FILE>.<EXT>PT=WATCOM CWORKLOC=0SHOW=0SA=1
+ASM.PGM
+PN=Turbo AssemblerCL=tasm <FILE>,<NAME>,<NAME> /iasm;PT=TURBO ASSEMBLERWORKLOC=0SHOW=0SA=1
+PN=Microsoft MASMCL=masm <FILE>;PT=MICROSOFTSM=1SA=1
+PN=MASM for StoneyBrook M2CL=masm <FILE>, obj\<NAME> /IASM /zi;PT=MICROSOFTSM=1SA=1
+PN=Assemble for StoneyBrook M2CL=tasm <FILE> obj\<NAME> /iASM /zi;PT=TURBO ASSEMBLERSM=1SA=1
+PN=Assemble for SBM2 (Case sensitive)CL=tasm <FILE> obj\<NAME> /iASM /ml /zi;PT=TURBO ASSEMBLERSM=1SA=1
+MOD.PGM
+PN=SBM2 - /NOOPT:D /DEBUGCL=M2 <FILE> /NOOPT:D /OUT:OBJ\ /LINE /DEBUGPT=STONYBROOK MODULA-2CS=3SA=1
+PN=SBM2 Compile - NO OPTIMIZE - DEBUGCL=M2 <FILE> /NOOPT /OUT:OBJ\ /LINE /DEBUGPT=STONYBROOK MODULA-2SM=5SA=1
+PN=SBM2 Compile - NO OPTIIIZE - NOSPARSECL=M2 <FILE> /NOOPT /OUT:OBJ\ /LINE /NOSPARSE /DEBUGPT=STONYBROOK MODULA-2SM=1SA=1
+PN=Stonybrook Compile - Full optimizeCL=M2 <FILE> /OUT:OBJ\ /DEBUGPT=STONYBROOK MODULA-2SM=1SA=1
+PN=Stonybrook Compile Definition ModuleCL=M2 <FILE>.<EXT> /OUTPUT:SYM\PT=STONYBROOK MODULA-2SM=1SA=1
+PAS INC.PGM
+PN=Delphi MakeCL=D:\DELPHI\BIN\DCC.EXE <NAME>.<EXT> -MWORKLOC=0PT=Delphi 1.0EXEID=1SHOW=0SA=1
+PN=Make ProjectCL=MAKE -Fproject PT=Borland Pascal 7.0WORKLOC=0SHOW=0SA=1CP=1
+PN=Turbo-DebugCL=TD <file>PT=NONECS=0
+PN=TPA Turbo-Pascal Debug CompileCL=\TPA\TPA.EXE TPC <FILE> /M /$D+ /VPT=TURBO PASCAL 5.0CS=3SM=5SA=1
+PN=Borland Pascal Windows MakeCL=BPC /CW <FILE> /M /L PT=Borland Pascal 7.0WORKLOC=0SHOW=0SA=1
+PN=Borland Pascal MakeCL=BPC.EXE /M /$G+ <FILE>PT=Borland Pascal 7.0CS=3SA=1
+PN=Borland Pascal CompileCL=BPC <FILE>PT=Borland Pascal 7.0CS=3SA=1
+PN=Turbo-Pascal Debug CompileCL=TPC <FILE> /M /$D+ /VPT=TURBO PASCAL 5.0CS=3SA=1
+PN=Turbo-Pascal BuildCL=TPC <FILE> /Q /BPT=TURBO PASCAL 5.0SM=1SA=1
+PN=Stonybrook Pascal+ BuildCL=PPB <NAME> /EC:\SOBJ\ /BPT=STONYBROOK MODULA-2CS=3SA=1
+PN=Stonybrook Pascal+  CompileCL=PPC <NAME> /EC:\SOBJ\PT=STONYBROOK MODULA-2CS=3SA=1
+PN=Stonybrook Pascal+  Compile //OPT:SCL=PPC <FILE> /Ed:\sobj //OPT:SPT=STONYBROOK MODULA-2CS=3SA=1
+PN=Stonybrook Pascal+  Library CompileCL=PPC <FILE> //LIBRARYPT=STONYBROOK MODULA-2SM=5SA=1
+S SH.PGM
+PN=Compile CMACWIN macroCL=<ME_PATH>CMACWIN.EXE <FILE>.<EXT> -P<ME_PATH>MAC -I<ME_PATH>SRC -O<MEERR> -WPT=Multi_EditWORKLOC=0SHOW=0SA=1
+PN=CMAC CompileCL=CMAC.EXE <FILE>.<EXT> -PMACPT=MULTI_EDITWORKLOC=2SHOW=0SA=1
+PN=Find CMACWIN Run-Time errorCL=<ME_PATH>CMACWIN.EXE <FILE> -P<ME_PATH>MAC -Dxxxx name -ISRC -W -O<MEERR>PT=Multi_EditWORKLOC=0SHOW=0SA=1CP=1
+PN=CMAC -M Debug compileCL=<ME_PATH>CMAC.EXE <FILE> -P<ME_PATH>MAC -MPT=Multi_EditWORKLOC=0SHOW=0
+PN=Find CMAC Run-Time errorCL=<ME_PATH>CMAC.EXE <FILE> -PMAC -Dxxxx namePT=Multi_EditWORKLOC=0SHOW=0SA=1CP=1
+SRC PKG INC FRM RPT VW DS SL.PGM
+PN=Run Current FileCL=dfrun <file>WORKLOC=0PT=DataFlexEXEID=1SHOW=0SA=1NR=1DP=1
+PN=Pre-Compile Current File by Tag NameCL=dfcomp <name> -fckpv2WORKLOC=0PT=DataFlexEXEID=1SHOW=1SA=1NR=1
+PN=Pre-Compile Current FileCL=dfcomp <file>.<ext> -fckpv2WORKLOC=0PT=DataFlexEXEID=1SHOW=1SA=1NR=1
+PN=Compile Current File by Tag NameCL=dfcomp <name> -fckv2WORKLOC=0PT=DataFlexEXEID=1SHOW=1SA=1NR=1
+PN=Compile Current FileCL=dfcomp <file>.<ext> -fckv2WORKLOC=0PT=DataFlexEXEID=1SHOW=1SA=1NR=1
+WAS.PGM
+PN=Windows Aspect Script CompilerCL=aspcompw /ES <file>.<ext>WORKLOC=1PT=Procomm Aspect for WindowsEXEID=3SHOW=0SA=1
+PGM.DB
+PGM=NONE
+PGM=2500 ADSRE=^<b0>\*@ @(<p>) : Line \#@[ \t]@(<i>)[ :\*]*(.@)$RRE=/F=\0/L=\3/M=\4XTR=/X=M/MP=D1/MS=^<b1>(\*+ .+)$/MR=//M=\0
+PGM=2500 AD 6805 AssemblerSRE=^<b1>(<i>)<b1><i>.@$RRE=/L=\0XTR=/X=M/MP=D1/MS=^<b1>(\*+ .+)$/MR=//M=\0
+PGM=2500 AD 68000SRE=^<b0>\*@ @(<p>) : Line \#@[ \t]@(<i>)[ :\*]*(.@)$RRE=/F=\0/L=\3/M=\4XTR=/X=M/MP=D1/MS=^<b1>(\*+ .+)$/MR=//M=\0
+PGM=2500 AD AssemblerSRE=^<b0>\*@ @(<p>) : Line \#@[ \t]@(<i>)[ :\*]*(.@)$RRE=/F=\0/L=\3/M=\4XTR=/X=M/MP=D1/MS=^<b1>(\*+ .+)$/MR=//M=\0
+PGM=2500 AD CSRE=^<b0>\*@ @(<p>) : Line \#@[ \t]@(<i>)[ :\*]*(.@)$RRE=/F=\0/L=\3/M=\4XTR=/X=M/MP=D1/MS=^<b1>(\*+ .+)$/MR=//M=\0
+PGM=AcuCobolSRE=^(<p>),<b0>line (<i>): (.*)$RRE=/F=\0/L=\3/M=\4
+PGM=Ada CompilerSRE=^<b0><i><b1>\*+(.#)$RRE=/M=\0XTR=/X=FL/FP=U/FS=^Compiling (<p>) into(.#)$/FR=//F=\0/LP=U/LS=^<b1>(<i>)<b1>[^*]+$/LR=//L=\0
+PGM=AMD_HIGHC29KEMAC=ERRMACS^ErrAMD_HighC29K
+PGM=ARM C CompilerSRE=^"(<p>)", line (<i>): ((Error)|(Warning)|(Serious error):.(.+))$RRE=/F=\0/L=\3/M=\4
+PGM=ASM51EMAC=ERRMACS^Err_Intel
+PGM=ASPECTSRE=^((Error)|(Warning) C<i>) Line (<i>): (.+)$RRE=/L=\3/M=\0 \4XTR=/X=F/FP=B/FS=^(<p>):$/FR=//F=\0
+PGM=Alsys ADAACMAC=COMPILE^PostCmpEmptyFile
+PGM=Alsys ADA 4.xACMAC=COMPILE^PostCmpEmptyFile
+PGM=Archimedes 6805SRE=^(<p>)\((<i>)\):<b0>(.*)$RRE=/F=\0/L=\3/M=\4XTR=
+PGM=Archimedes 8051 CSRE=^("(<p>)",(<i>).(.+))|((Error)|(Warning)\[.+\]:.(.+))$RRE=/F=\1/L=\4/M=\5\6
+PGM=Archimedes Z80 AssemblerSRE=^("(<p>)",(<i>).(.+))|((Error)|(Warning)\[.+\]:.(.+))$RRE=/F=\1/L=\4/M=\5\6
+PGM=Archimedes Z80 CSRE=^("(<p>)",(<i>).(.+))|((Error)|(Warning)\[.+\]:.(.+))$RRE=/F=\1/L=\4/M=\5\6
+PGM=Arium Z80 AssemblerSRE=^(<p>) \((<i>), (<i>)\): (.+)$RRE=/F=\0/L=\3/C=\4/M=\5
+PGM=Arium Z80 C CompilerSRE=^(<p>)\((<i>)\) : (.+)$RRE=/F=\0/L=\3/M=\4XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Avocet 68HC11SRE=^(<p>)(:)|( Line )(<i>)( -)|()(( PREPROC)|() ERROR <i>:.#)$RRE=/F=\0/L=\5/M=\8
+PGM=Avocet AVMAC65EMAC=ERRMACS^Err_AVMAC65
+PGM=Avocet AssemblersSRE=^(<p>)(:)|( Line )(<i>)( - )|( )((PREPROC )|()ERROR .#:.#)$RRE=/F=\0/L=\5/M=\8
+PGM=Avocet C CompilersSRE=^((.#)\^)(.@)$RRE=/C=\0/M=\1\2XTR=/X=FL/FP=U/FS=^(<p>):.@$/FR=//F=\0/LP=U1/LS=^<b1>(<i>).#$/LR=//L=\0
+PGM=Aztec C
+PGM=BatcomEMAC=ERRMACS^ErrBatCom
+PGM=BorlandSRE=^(\*@((Error)|(Warning)|(Fatal))\*@:|(( E|W|F<i> )|(<b1>)(<p>)[ \(]+(<i>)[ \):]*))|(((.@Make)|(Link))<b0>:) (.#)$RRE=/F=\8/L=\~1/M=\1\6\~3: \~6
+PGM=Borland CEMAC=ERRMACS^ErrBorland
+PGM=Borland C++EMAC=ERRMACS^ErrBorland
+PGM=Borland GrepSRE=^(<i>)<b1>.@$RRE=/L=\0XTR=/X=FM/FP=B/FS=^File (<p>):$/FR=//F=\0//M= \0
+PGM=Borland PascalSRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Borland Pascal 7.0SRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=BytecraftSRE=^((Warning)|(Error))<b1>(<p>) (<i>):(<i>):(.+)$RRE=/F=\3/L=\6/C=7/M=\0 \8
+PGM=CCS Pic 2.03 CompilerSRE=^(Error\[<i>\])<b1>(<p>)<b1>(<i>) (: .@)$RRE=/F=\1/L=\4/M=\0\5XTR=
+PGM=ClarionACMAC=COMPILE^PostCmpEmptyFile
+PGM=Clipper 5EMAC=ERRMACS^ErrMicrosoft
+PGM=Clipper S87EMAC=ERRMACS^Err_C87_FB
+PGM=Cosmic 6805 CSRE=^\#error cp6805 (<p>):(<i>)\((<i>)\+(<i>)\) (.#)$RRE=/F=\0/L=\3/C=\4/CO=\5/M=\6
+PGM=Cosmic 68HC11 CSRE=^(\#error (clnk<b1>mod.lkf:)|(c.6811<b1>(<p>):(<i>)(\((<i>)(\+<i>)@\))@<b1>))|(Fatal:<b1>)(.+)$RRE=/F=\3/L=\6/C=\8/M=\~0\~1
+PGM=Cosmic 68HC16 CSRE=^\#error cp1\(V3.32\)<b1>(<p>):(<i>)<b1>(.+)$RRE=/F=\0/L=\3/M=\4
+PGM=Crosscode CEMAC=ERRMACS^Err_CrossCode_C
+PGM=DataFlexACMAC=COMPILE^PostCmpDataFlexEFILE=<NAME>.PRNSRE=^\x07(Error: .+ on line: (<i>) .+ of File: (<p>))$RRE=/F=\2/L=\1/M=\0
+PGM=DatabusSRE=^(<b0>\*ERROR\*)$RRE=/C=\0/CO=-41XTR=/X=LM/LP=U1/LS=^<b0>(<i>)\..@$/LR=//L=\0/MP=D2/MS=^(.@)$/MR=//M=\0
+PGM=Delphi 1.0SRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Delphi 2.0SRE=^((<p>)\((<i>)\) )@\*@((Error)|(Warning)|(Fatal):.+)$RRE=/F=\1/L=\4/M=\5
+PGM=Diab Data compilerSRE=^(<q>), line (<i>): ((warning)|(error) \(<i>\): .@)$RRE=/F=\0/L=\3/M=\4XTR=
+PGM=EMTeXEMAC=ERRMACS^ErrTeX
+PGM=FANUC Robotics KTRANSSRE=^(<b0>\^)<b1>((ERROR)|(WARNING)).*$RRE=/C=\0/M=\1: XTR=/X=LM+/LP=U1/LS=^<b0>(<i>).*$/LR=//L=\0/MP=D1/MS=^<b0>(.+)$/MR=//M=\0
+PGM=FoxbaseEMAC=ERRMACS^Err_C87_FB
+PGM=Franklin 8051 C CompilerSRE=^\*@<b1>((error)|(warning) <i>) in line (<i>) of (<p>)(: .@)$RRE=/F=\4/L=\3/M=\0\7
+PGM=Gimpel PC-LintSRE=^(<p>)\((<i>)\) : (.@)$RRE=/F=\0/L=\3/M=\4XTR=/X=C/CP=U2/CS=^(<b0>_)$/CR=//C=\0
+PGM=Gimpel PC-Lint 5EMAC=ERRMACS^ErrGimpelLint5
+PGM=GNU CompilersSRE=^(<po>(<f>))[:\(](<i>)[:\)](.#)$RRE=/F=\0/L=\4/M=\5
+PGM=GrokEMAC=ERRMACS^ErrMicrosoft
+PGM=HUGO CompilerSRE=^(<p>)\((<i>)\) (.#)$RRE=/F=\0/L=\3/M=\4XTR=
+PGM=IAR H8/500 CompilerSRE=^("(<p>)",(<i>).(.+))|((Error)|(Warning)\[.+\]:.(.+))$RRE=/F=3D\1/L=3D\4/M=3D\5\6
+PGM=IBM CPPSRE=^(<p>)\((<i>):(<i>)\) :<b1>(error edc<i>:.+)$RRE=/F=\0/L=\3/C=\4/M=\5
+PGM=Imagecraft HC6811 CompilerSRE=^!E (<p>)\((<i>)\): (.#)$RRE=/F=\0/L=\3/M=\4XTR=
+PGM=Intel ASM-86
+PGM=Intel IC-86
+PGM=Intel PLM-86
+PGM=Intermetrics CACMAC=COMPILE^PostCmpEmptyFile
+PGM=IntrolSRE=^(<b0>\*# (<p>) - (<i>)(.*))|(ILD11:(.*))$RRE=/F=\1/L=\4/M=\5\7
+PGM=Introl CC11SRE=^(<p>): (<i>) - (.+)$RRE=/F=\0/L=\3/C=0/M=\4
+PGM=JPI Modula-2
+PGM=Janus ADAEMAC=ERRMACS^ErrJanusAda
+PGM=Javac CompilerSRE=^(<p>)[:(](<i>)\)@\: #(.#)$RRE=/F=\0/L=\3/M=\4XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Mocha preprocessorBCMAC=MOCHA^FindMochaPathEMAC=MOCHA^ErrMocha
+PGM=Jikes Java CompilerSRE=^(<p>):(<i>):(<i>):(<i>):(<i>):$RRE=/F=\0/L=\3/C=\4XTR=/X=M/MP=D1/MS=^<b0>(.#)$/MR=//M=\0
+PGM=Keil C51 CompilerSRE=^\*@<b1>((error)|(warning)) <i> in line (<i>) of (<p>)(: .@)$RRE=/F=\4/L=\3/M=\0\7
+PGM=Lahey Fortran 90 CompilerSRE=^((FATAL)|(WARNING) -- .@)$RRE=/M=\0XTR=/X=FLC/FP=U/FS=^Line (<i>), file (<p>)$/FR=//L=\0//F=\1/CP=U/CS=^(<b0>\|)$/CR=//C=\0
+PGM=Lahey FortranEMAC=ERRMACS^ErrLaheyFortran
+PGM=Lattice C 3.0
+PGM=LinkerSRE=^\*\*\*(.#UNRESOLVED.#)$RRE=/M=\0XTR=/X=M+/MP=D1/MS=^.#SYMBOL(.#)$/MR=//M=\0
+PGM=Logitech Modula-2
+PGM=MA51 AssemblerSRE=^\*\*\*<b1>(ERROR \#<i>,) LINE \#(<i>) \(<i>\),(.#)$RRE=/L=\2/M=\0\3XTR=/X=C/CP=U1/CS=^\*# (_#\^)$/CR=//C=\0
+PGM=MCC68000SRE=^(<q>), line (<i>) pos (<i>); (\(E|W\) .+)$RRE=/F=\0/L=\3/C=\4/M=\5
+PGM=MDL CompilerSRE=^(<p>)\((<i>)\) : (.@)$RRE=/F=\0/L=\3/M=\4
+PGM=MS PascalSRE=^<b1>(<i>)<b1>(-*\^)(.+)$RRE=/L=\0/C=\1/M=\2
+PGM=MS Pascal 3.3
+PGM=MSC-51 AssemblerSRE=^\*# (ERROR \#<i>) IN <i> \((<p>), LINE (<i>)\)(:.#)$RRE=/F=\1/L=\4/M=\0\5
+PGM=Meridian ADASRE=^(<q>), (<i>): (.+)$RRE=/F=\0/L=\3/M=\4
+PGM=MetawareSRE=^(w|e) (<q>),L(<i>)(/C(<i>).@)@:<b1>(.+)$RRE=/F=\1/L=\4/C=\6/M=\0 \7XTR=/X=M+/MP=D1/MS=^\|<b0>( .+)$/MR=//M=\0
+PGM=Micro Focus Unix COBOLSRE=^(<p>)<b1>(<i>)<b1>(<i>):(.#)$RRE=/F=\0/L=\3/C=\4/M=\5
+PGM=Micro Focus Dos COBOLEMAC=ERRMACS^Err_MFCobol
+PGM=MicrosoftSRE=^(.@make : )|(.@\.(exe)|(obj) : )|((<p>)\((<i>)\) : )((fatal)|(error)|(warning) .@: .@)$RRE=/F=\5/L=\8/M=\0\9
+PGM=Microsoft CEMAC=ERRMACS^ErrMicrosoft
+PGM=Multi_EditACMAC=COMPILE^PostCmpMultiEditSRE=^(<p>)\((<i>),<b0>(<i>)\): (Error <i>:.#)$RRE=/F=\0/L=\3/C=\4/M=\5
+PGM=PCM C CompilerSRE=^\*@ "(<p>)" Line<b1>(<i>): (Error \#<i>:.@)$RRE=/F=\0/L=\3/M=\4
+PGM=Perl CompilerSRE=^(.@) at (<p>) line (<i>)[.,](.@)$RRE=/F=\1/L=\4/M=\0\5XTR=/X=M+/MP=D1/MS=^(<b1>\(.@\))$/MR=//M=\0
+PGM=PL/B CompilerSRE=^((.@\*)ERROR\*)|(Undefined execution label: .@)$RRE=/C=\1/CO=-39/M=\2XTR=/X=LM+/LP=U1/LS=^<b0>(<i>)\..@$/LR=//L=\0/MP=D1/MS=^(.@\.)$/MR=//M=\0
+PGM=PLM51EMAC=ERRMACS^Err_Intel
+PGM=Power BasicSRE=^(<p>)\((<i>):(<i>)\): ((Error)|(Warning) <i>: .@)$RRE=/F=\0/L=\3/C=\4/M=\5
+PGM=Power CEMAC=ERRMACS^ErrPowerC
+PGM=Power C 1.2.0SRE=^<b1>(<i>: .+)$RRE=/M=\0XTR=/X=FLC/FP=B/FS=^(<p>)\((<i>)\):.+$/FR=//F=\0//L=\3/CP=B/CS=^\*+(<b0>\^).+$/CR=//C=\0
+PGM=Power C 2.0EMAC=ERRMACS^ErrPowerC_20
+PGM=Procomm Aspect for WindowsEFILE=<file>.errSRE=^(.#)(<i>):(.#)RRE=/L=\1/M=\2
+PGM=RBASE_5
+PGM=Realia COBOLEMAC=ERRMACS^Err_RealiaCobol
+PGM=RM/COBOL-85 CompilerSRE=^\*#<b1><i>\)<b1><i>: (E)|(W) (.#)$RRE=/M=\2
+PGM=SASMSRE=^\x07File -> (<p>)<b1>((Error)|(Warning) -> .+ at line \#(<i>))$RRE=/F=\0/L=\6/M=\3
+PGM=SVS FortranEMAC=ERRMACS^Err_SVS_Fortran
+PGM=Salford FTN77EMAC=ERRMACS^ErrSalfordFTN7
+PGM=SoftoolsSRE=^(<p>)\[(<i>)\] - ((Warning)|(Error)|(Fatal).+)$RRE=/F=\0/L=\3/M=\4
+PGM=Stonybrook Modula-2EFILE=<NAME>.ERREMAC=ERRMACS^ErrStonyBrookM2
+PGM=Symantec C, C++EMAC=ERRMACS^ErrMicrosoft
+PGM=TDBSEMAC=ERRMACS^ErrTDBS
+PGM=TI CSRE=^(<q>), line (<i>): (.+)$RRE=/F=\0/L=\3/M=\4
+PGM=TI370 Assembler
+PGM=Table Assembler
+PGM=Tachyon Cross CompilerSRE=^(<p>)\((<i>)\) : (.@)$RRE=/F=\0/L=\3/M=\4XTR=
+PGM=TeXEFILE=<NAME>.LOGEMAC=ERRMACS^ErrTeX
+PGM=Telxon Tcal V3.3EMAC=ERRMACS^ErrTelxonTCal
+PGM=Turbo AssemblerSRE=^(\*\**(Error)|(Warning)|(Fatal)\**) (<p>)\((<i>)\) (.+)$RRE=/F=\4/L=\7/M=\0 \8
+PGM=Turbo CEMAC=ERRMACS^ErrBorland
+PGM=Turbo C++EMAC=ERRMACS^ErrBorland
+PGM=Turbo PascalSRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Turbo Pascal 5.0SRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Turbo Pascal 5.5SRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Turbo Pascal 6.0SRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(<b0>\^)$/CR=//C=\0
+PGM=Uni-bench 32 bit compilerSRE=^(<p>)\/(<f>) (<i>) (<i>) ((W: )|(ERR) <i><b0>: .#)$RRE=/F=\0\3/L=\4/C=\5/M=\6XTR=
+PGM=Virtual PascalSRE=^((<p>)\((<i>)\): )@\*@((Error)|(Warning) <i>:.+)$RRE=/F=\1/L=\4/M=\5XTR=/X=C/CP=D2/CS=^(\.@\^)$/CR=//C=\0
+PGM=Visual C++SRE=^(.@make : )|(.@\.(exe)|(obj) : )|((<p>)\((<i>)\) : )((fatal)|(error)|(warning) .@: .@)$RRE=/F=\5/L=\8/M=\0\9
+PGM=Watcom CSRE=^(<p>)\((<i>)\): ((Error)|(Warning)! E|W<i>:.+)$RRE=/F=\0/L=\3/M=\4
+PGM=Watcom C++SRE=^\((<i>),(<i>)\): ((Error)|(Warning)! E|W<i>:.+)$RRE=/L=\0/C=\1/M=\2XTR=/X=F/FP=B/FS=^File: (<p>)$/FR=//F=\0
+PGM=Watcom C/C++SRE=^((<p>)\((<i>)\)|(,(<i>)\)): )@((Error)|(Warning)(\(|(! )E|W|F<i>:|(\):))|:.+)$RRE=/F=\1/L=\4/C=\6/M=\7XTR=/X=F/FP=B/FS=^File: (<p>)$/FR=//F=\0
+PGM=XBase++ CompilerSRE=^(<p>)\((<i>):<i>\) : ((error)|(warning): .@)$RRE=/F=\0/L=\3/M=\4
+PGM=Zilog Z8 AssemblerSRE=^(asm)|((<p>): (<i>)): (.#)$RRE=/F=\2/L=\5/M=\6
+PGM=Zortech C++
+PGM=Zortech C++ 2.0
+PGM=Zortech C++ 3.0EMAC=ERRMACS^ErrMicrosoft
+PGM=FilterBCMAC=Compile^PreCmpFilterACMAC=Compile^PostCmpFilter
+COLORS.DB
+NAME=White BackgroundNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0REST=/FC=0/BC=16777215/AT=769SYMT=/FC=16711680/BC=16777215/AT=257EOL1T=/FC=128/BC=16777215/AT=770EOL2T=/FC=128/BC=16777215/AT=770CMT1T=/FC=128/BC=16777215/AT=770CMT2T=/FC=128/BC=16777215/AT=770NUMT=/FC=8388736/BC=16777215/AT=256STRT=/FC=32768/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=White Background 2NT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=0/BC=16777215/AT=0REST=/FC=8388736/BC=16777215/AT=769SYMT=/FC=16711680/BC=16777215/AT=257EOL1T=/FC=128/BC=16777215/AT=770EOL2T=/FC=128/BC=16777215/AT=770CMT1T=/FC=128/BC=16777215/AT=770CMT2T=/FC=128/BC=16777215/AT=770NUMT=/FC=255/BC=16777215/AT=256STRT=/FC=32768/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Black Background 1NT=/FC=12632256/BC=0/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=16711680/BC=0/AT=0CT=/FC=12632256/BC=0/AT=0ET=/FC=8421504/BC=0/AT=0LT=/FC=12632256/BC=0/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=12632256/BC=0/AT=0REST=/FC=65535/BC=0/AT=769SYMT=/FC=16776960/BC=0/AT=769EOL1T=/FC=255/BC=0/AT=770EOL2T=/FC=255/BC=0/AT=770CMT1T=/FC=255/BC=0/AT=770CMT2T=/FC=255/BC=0/AT=770NUMT=/FC=16711935/BC=0/AT=256STRT=/FC=4259584/BC=0/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Black Background 2NT=/FC=12632256/BC=0/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=16711680/BC=0/AT=0CT=/FC=12632256/BC=0/AT=0ET=/FC=8421504/BC=0/AT=0LT=/FC=12632256/BC=0/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=12632256/BC=0/AT=0REST=/FC=8421376/BC=0/AT=769SYMT=/FC=16777088/BC=0/AT=769EOL1T=/FC=255/BC=0/AT=770EOL2T=/FC=255/BC=0/AT=770CMT1T=/FC=255/BC=0/AT=770CMT2T=/FC=255/BC=0/AT=770NUMT=/FC=16711935/BC=0/AT=256STRT=/FC=4259584/BC=0/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Blue Background 1NT=/FC=16777215/BC=10485760/AT=0HT=/FC=16777215/BC=16711680/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=0/BC=8421440/AT=0CT=/FC=16777215/BC=10485760/AT=0ET=/FC=8421504/BC=10485760/AT=0LT=/FC=16777215/BC=10485760/AT=32768LBT=/FC=16777215/BC=16711680/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=12632256/BC=10485760/AT=0REST=/FC=16777215/BC=10485760/AT=769SYMT=/FC=16776960/BC=10485760/AT=257EOL1T=/FC=255/BC=10485760/AT=770EOL2T=/FC=255/BC=10485760/AT=770CMT1T=/FC=255/BC=10485760/AT=770CMT2T=/FC=255/BC=10485760/AT=770NUMT=/FC=16777088/BC=10485760/AT=256STRT=/FC=65280/BC=10485760/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Blue Background 2NT=/FC=16777215/BC=10485760/AT=0HT=/FC=16777215/BC=16711680/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=0/BC=8421440/AT=0CT=/FC=16777215/BC=10485760/AT=0ET=/FC=8421504/BC=10485760/AT=0LT=/FC=16777215/BC=10485760/AT=32768LBT=/FC=16777215/BC=16711680/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=12632256/BC=10485760/AT=0REST=/FC=32896/BC=10485760/AT=769SYMT=/FC=16776960/BC=10485760/AT=257EOL1T=/FC=255/BC=10485760/AT=770EOL2T=/FC=255/BC=10485760/AT=770CMT1T=/FC=255/BC=10485760/AT=770CMT2T=/FC=255/BC=10485760/AT=770NUMT=/FC=16777088/BC=10485760/AT=256STRT=/FC=65280/BC=10485760/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Green BackgroundNT=/FC=0/BC=8421440/AT=0HT=/FC=16777215/BC=10485760/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=0/BC=128/AT=0CT=/FC=0/BC=8421440/AT=0ET=/FC=16777215/BC=8421440/AT=0LT=/FC=0/BC=8421440/AT=32768LBT=/FC=16777215/BC=10485760/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=16777215/BC=8421440/AT=0REST=/FC=0/BC=8421440/AT=769SYMT=/FC=8388672/BC=8421440/AT=257EOL1T=/FC=128/BC=8421440/AT=770EOL2T=/FC=128/BC=8421440/AT=770CMT1T=/FC=128/BC=8421440/AT=770CMT2T=/FC=128/BC=8421440/AT=770NUMT=/FC=8388736/BC=8421440/AT=256STRT=/FC=4259584/BC=8421440/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Light Blue BackgroundNT=/FC=0/BC=16777088/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777088/AT=0CT=/FC=0/BC=16777088/AT=0ET=/FC=8421504/BC=16777088/AT=0LT=/FC=0/BC=16777088/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=0/BC=16777088/AT=0REST=/FC=0/BC=16777088/AT=769SYMT=/FC=16711680/BC=16777088/AT=769EOL1T=/FC=128/BC=16777088/AT=770EOL2T=/FC=128/BC=16777088/AT=770CMT1T=/FC=128/BC=16777088/AT=770CMT2T=/FC=128/BC=16777088/AT=770NUMT=/FC=255/BC=16777088/AT=768STRT=/FC=32768/BC=16777088/AT=768FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Visual C++ DefaultNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=0/AT=0ST=/FC=16777215/BC=0/AT=0PT=/FC=0/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=32768ET=/FC=8421504/BC=16777215/AT=32768LT=/FC=0/BC=16777215/AT=32768LBT=/FC=0/BC=16777215/AT=32768LCT=/FC=0/BC=16777215/AT=32768MT=/FC=0/BC=16777215/AT=32768REST=/FC=16711680/BC=16777215/AT=769SYMT=/FC=0/BC=16777215/AT=0EOL1T=/FC=4227072/BC=16777215/AT=770EOL2T=/FC=4227072/BC=16777215/AT=770CMT1T=/FC=4227072/BC=16777088/AT=258CMT2T=/FC=4227072/BC=16777088/AT=258NUMT=/FC=16711680/BC=16777215/AT=256STRT=/FC=0/BC=16777215/AT=0FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Borland C++ DefaultNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=16711680/AT=0ST=/FC=16777215/BC=8388608/AT=0PT=/FC=0/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=32768ET=/FC=8421504/BC=16777215/AT=32768LT=/FC=0/BC=16777215/AT=32768LBT=/FC=0/BC=16777215/AT=32768LCT=/FC=0/BC=16777215/AT=32768MT=/FC=0/BC=16777215/AT=32768REST=/FC=0/BC=16777215/AT=769SYMT=/FC=0/BC=16777215/AT=0EOL1T=/FC=8388608/BC=16777215/AT=258EOL2T=/FC=8388608/BC=16777215/AT=770CMT1T=/FC=8388608/BC=16777088/AT=770CMT2T=/FC=8388608/BC=16777088/AT=770NUMT=/FC=16711680/BC=16777215/AT=256STRT=/FC=16711680/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=Html ColorsNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=0/BC=0/AT=0REST=/FC=0/BC=12632256/AT=769SYMT=/FC=16711680/BC=12632256/AT=768EOL1T=/FC=128/BC=12632256/AT=768EOL2T=/FC=128/BC=12632256/AT=768CMT1T=/FC=128/BC=12632256/AT=256CMT2T=/FC=0/BC=12632256/AT=256NUMT=/FC=255/BC=12632256/AT=770STRT=/FC=32768/BC=12632256/AT=770FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0
+NAME=HTML-Yellow TagsNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=8421504/BC=16777215/AT=0REST=/FC=0/BC=16777215/AT=769SYMT=/FC=16711680/BC=16777215/AT=257EOL1T=/FC=128/BC=16777215/AT=770EOL2T=/FC=128/BC=16777215/AT=770CMT1T=/FC=128/BC=16777215/AT=770CMT2T=/FC=128/BC=16777215/AT=770NUMT=/FC=8388736/BC=16777215/AT=256STRT=/FC=32768/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0TR=/FC=16711680/BC=65535/AT=769TS=/FC=16711680/BC=65535/AT=768TC=/FC=128/BC=65535/AT=770TA=/FC=16711680/BC=65535/AT=768TV=/FC=32768/BC=65535/AT=768
+NAME=HTML-Grey TagsNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=8421504/BC=16777215/AT=0REST=/FC=0/BC=16777215/AT=769SYMT=/FC=16711680/BC=16777215/AT=257EOL1T=/FC=128/BC=16777215/AT=770EOL2T=/FC=128/BC=16777215/AT=770CMT1T=/FC=128/BC=16777215/AT=770CMT2T=/FC=128/BC=16777215/AT=770NUMT=/FC=8388736/BC=16777215/AT=256STRT=/FC=32768/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0TR=/FC=16711680/BC=12632256/AT=769TS=/FC=16711680/BC=12632256/AT=768TC=/FC=128/BC=12632256/AT=770TA=/FC=16711680/BC=12632256/AT=768TV=/FC=32768/BC=12632256/AT=768
+NAME=HTML-Green TagsNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=8421504/BC=16777215/AT=0REST=/FC=0/BC=16777215/AT=769SYMT=/FC=16711680/BC=16777215/AT=257EOL1T=/FC=128/BC=16777215/AT=770EOL2T=/FC=128/BC=16777215/AT=770CMT1T=/FC=128/BC=16777215/AT=770CMT2T=/FC=128/BC=16777215/AT=770NUMT=/FC=8388736/BC=16777215/AT=256STRT=/FC=32768/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0TR=/FC=16711680/BC=65280/AT=769TS=/FC=16711680/BC=65280/AT=768TC=/FC=128/BC=65280/AT=770TA=/FC=16711680/BC=65280/AT=768TV=/FC=0/BC=65280/AT=768
+NAME=JawaNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=0/BC=0/AT=0REST=/FC=255/BC=16777215/AT=769REST2=/FC=16711808/BC=16777215/AT=769REST3=/FC=16711680/BC=16777215/AT=769REST4=/FC=32768/BC=16777215/AT=769SYMT=/FC=16711680/BC=16777215/AT=257BRAK=/FC=16711680/BC=16777215/AT=257EOL1T=/FC=128/BC=16777215/AT=770EOL2T=/FC=128/BC=16777215/AT=770EOL3T=/FC=128/BC=16777215/AT=770EOL4T=/FC=0/BC=0/AT=32768CMT1T=/FC=128/BC=16777215/AT=770CMT2T=/FC=128/BC=16777215/AT=770NUMT=/FC=0/BC=16777215/AT=256STRT=/FC=32768/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0TR=/FC=0/BC=16777215/AT=769TS=/FC=16711680/BC=16777215/AT=257TC=/FC=128/BC=16777215/AT=770TA=/FC=128/BC=16777215/AT=770TV=/FC=32768/BC=16777215/AT=256TRS=/FC=0/BC=16777215/AT=769
+NAME=MochaNT=/FC=0/BC=16777215/AT=0HT=/FC=16777215/BC=8388608/AT=0ST=/FC=0/BC=255/AT=0PT=/FC=8388608/BC=16777215/AT=0CT=/FC=0/BC=16777215/AT=0ET=/FC=8421504/BC=16777215/AT=0LT=/FC=0/BC=16777215/AT=32768LBT=/FC=16777215/BC=8388608/AT=0LCT=/FC=0/BC=16776960/AT=0MT=/FC=0/BC=16777215/AT=32768REST=/FC=255/BC=16777215/AT=769REST2=/FC=16711808/BC=16777215/AT=769REST3=/FC=16711680/BC=16777215/AT=769REST4=/FC=32768/BC=16777215/AT=769SYMT=/FC=16711680/BC=16777215/AT=257BRAK=/FC=16711680/BC=16777215/AT=257EOL1T=/FC=128/BC=16777215/AT=770EOL2T=/FC=128/BC=16777215/AT=770EOL3T=/FC=128/BC=16777215/AT=770EOL4T=/FC=0/BC=0/AT=32768CMT1T=/FC=128/BC=16777215/AT=770CMT2T=/FC=128/BC=16777215/AT=770NUMT=/FC=0/BC=16777215/AT=256STRT=/FC=32768/BC=16777215/AT=256FCD=/FC=0/BC=65280/AT=0FCI=/FC=0/BC=16776960/AT=0TR=/FC=0/BC=16777215/AT=769TS=/FC=16711680/BC=16777215/AT=257TC=/FC=128/BC=16777215/AT=770TA=/FC=128/BC=16777215/AT=770TV=/FC=32768/BC=16777215/AT=256TRS=/FC=0/BC=16777215/AT=769
+CUSTOMRGB.DB
+0=167772151=167772152=167772153=167772154=167772155=167772156=167772157=167772158=167772159=1677721510=1677721511=1677721512=1677721513=1677721514=1677721515=16777215
+CMDMAPLIST.DB
+NAME=DefaultFN=WCMDMAP
+NAME=Borland IDE EmulationFN=BORLAND
+NAME=Brief EmulationFN=BRIEF
+NAME=Wordstar EmulationFN=WORDSTARIM=WORDSTAR^WORDSTAR
+SPELLSET.ME
+COMMON.DIC
+ME.DIC
+AUXDIC.TXT
+AUXDIC2.TXT
+.@<
+^
+/WS=1/RC=1/WW=1
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_'
+VCS.CFG /VCS=NONE/SCL=1/SNP=0/BS=1/XIT=0/FRL=1/CD=1/MLC=1/GFM=PROMPT/VRS=3/UCD=1/UXM=/SCC=0
+ID=NONE
+ID=LCMDESC=PAN/LCM (Dos)PATH=<LOOKUP>CFS=$change:CFE=$GC=DGET.EXE -G -Fb0  -w1 -Mel <FILE>.<EXT>PC=DGEN.EXE -G -Fb0 -Fw -w1 -c:@<COMNT> <FILE>.<EXT>LC=DLIST.EXE -c <FILE>.<EXT>DC=DGET.EXE -FB -w1 <FILE>.<EXT>CC=DGEN.EXE -G -Fb0 -Fw -w1 -i -c:@<COMNT> <FILE>.<EXT>BC=DGET.EXE -Fb0 -w1 -Mvn <FILE>.<EXT>OC=DGET.EXE -G -FD -w1 -Mel <FILE>.<EXT>UC=DGET.EXE -G -Fb0 -w1 -Mvn <FILE>.<EXT>MC=LCM.EXE
+ID=PVCSDESC=PVCS (Dos)LIBEXT=??VPATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\PVCSGC=GET.EXE -L <LPATHX>(<NAME>.<EXT>)PC=PUT.EXE -M@<COMNT> <LPATHX>(<FILE>.<EXT>)LC=VLOG.EXE <LPATH><NAME>.<EXT>DC=GET.EXE <LPATHX>(<TMP_PATH><NAME>.<EXT>)CC=PUT.EXE -T@<COMNT> <LPATHX>(<FILE>.<EXT>)BC=GET.EXE <LPATHX>(<NAME>.<EXT>)OC=VCS.EXE -L <LPATHX>(<FILE>.<EXT>)UC=VCS.EXE -U <LPATHX>(<FILE>.<EXT>)MC=D:\PVCS\GUI\PVCSWINU.EXE
+ID=PVCS W32CDESC=PVCS (Win32 Console)LIBEXT=??VPATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\PVCS\WIN95GC=GET.EXE <XW32C><LFN>-L "<LPATHX>"("<NAME>.<EXT>")PC=PUT.EXE <XW32C><LFN>-M@<COMNT> "<LPATHX>"("<FILE>.<EXT>")LC=VLOG.EXE <XW32C><LFN>"<LPATH><NAME>.<EXT>"DC=GET.EXE <XW32C><LFN>"<LPATHX>"("<TMP_PATH><NAME>.<EXT>")CC=PUT.EXE <XW32C><LFN>-T@"<COMNT>" "<LPATHX>"("<FILE>.<EXT>")BC=GET.EXE <XW32C><LFN>"<LPATHX>"("<NAME>.<EXT>")OC=VCS.EXE <XW32C><LFN>-L "<LPATHX>"("<FILE>.<EXT>")UC=VCS.EXE <XW32C><LFN>-U "<LPATHX>"("<FILE>.<EXT>")MC=PVCSVMNT.EXE
+ID=RCS CS-RCSDESC=CS-RCS (Win32 Console)LIBEXT=+,vPATH=<LOOKUP>CFS=$change:CFE=$BDIR=C:\Progra~1\Compone~1\cs-rcs\System\GC=csrcs.exe co <XW32C><LFN>/q /l "<FILE>.<EXT>"PC=csrcs.exe ci <XW32C><LFN>/q /u "<FILE>.<EXT>" < "<COMNT>"LC=csrcs.exe his <XW32C><LFN>"<FILE>.<EXT>"DC=csrcs.exe ret <XW32C><LFN>/q /a"<TMP_PATH>" "<FILE>.<EXT>" CC=csrcs.exe add <XW32C><LFN>/q /u "<FILE>.<EXT>" < "<COMNT>"BC=csrcs.exe co <XW32C><LFN>/q /u "<FILE>.<EXT>"OC=csrcs.exe co <XW32C><LFN>/q /l "<FILE>.<EXT>"UC=csrcs.exe co <XW32C><LFN>/q /u "<FILE>.<EXT>"MC=DocumentManager.exe
+ID=RCS GNUDESC=GNU RCS (Dos)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=d:\binGC=co.exe -l <LPATH><NAME>.<EXT> <FILE>.<EXT>PC=ci.exe -u -f <LPATH><NAME>.<EXT> <FILE>.<EXT> < <COMNT>LC=rlog.exe <LPATH><NAME>.<EXT>DC=co.exe <LPATH><NAME>.<EXT> <TMP_PATH><NAME>.<EXT>CC=ci.exe -u -T <LPATH><NAME>.<EXT> <FILE>.<EXT> < <COMNT>BC=co.exe <LPATH><NAME>.<EXT> <FILE>.<EXT>OC=rcs.exe -l <LPATH><NAME>.<EXT> <FILE>.<EXT>UC=rcs.exe -u <LPATH><NAME>.<EXT> <FILE>.<EXT>
+ID=RCS GNU-32DESC=GNU RCS (Win32 Console)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=d:\binntGC=co.exe <XW32C><LFN>-l "<LPATH><NAME>.<EXT>" "<FILE>.<EXT>"PC=ci.exe <XW32C><LFN>-u -f "<LPATH><NAME>.<EXT>" "<FILE>.<EXT>" < "<COMNT>"LC=rlog.exe <XW32C><LFN>"<LPATH><NAME>.<EXT>"DC=co.exe <XW32C><LFN>"<LPATH><NAME>.<EXT>" "<TMP_PATH><NAME>.<EXT>"CC=ci.exe <XW32C><LFN>-u -T "<LPATH><NAME>.<EXT>" "<FILE>.<EXT>" < "<COMNT>"BC=co.exe <XW32C><LFN>"<LPATH><NAME>.<EXT>" "<FILE>.<EXT>"OC=rcs.exe <XW32C><LFN>-l "<LPATH><NAME>.<EXT>" "<FILE>.<EXT>"UC=rcs.exe <XW32C><LFN>-u "<LPATH><NAME>.<EXT>" "<FILE>.<EXT>"
+ID=RCS MKSDESC=MKS RCS (Dos)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=d:\mks\binGC=co.exe -l <FILE>.<EXT>PC=ci.exe -u -f <FILE>.<EXT> < <COMNT>LC=rlog.exe <LPATH><NAME>.<EXT>DC=co.exe -p <FILE>.<EXT> > <TMP_PATH><NAME>.<EXT>CC=ci.exe -u -T <FILE>.<EXT> < <COMNT>BC=co.exe <FILE>.<EXT>OC=rcs.exe -l <FILE>.<EXT>UC=rcs.exe -u <FILE>.<EXT>MC=mksrcs.exe
+ID=RCS MKSSIDESC=MKS Source Integrity (Dos)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=d:\mks\binGC=co.exe -l <FILE>.<EXT>PC=ci.exe -u -f <FILE>.<EXT> < <COMNT>LC=rlog.exe <LPATH><NAME>.<EXT>DC=co.exe -p <FILE>.<EXT> > <TMP_PATH><NAME>.<EXT>CC=ci.exe -u -T <FILE>.<EXT> < <COMNT>BC=co.exe <FILE>.<EXT>OC=rcs.exe -l <FILE>.<EXT>UC=rcs.exe -u <FILE>.<EXT>MC=d:\mks\mkssi\mkssi.exe
+ID=RCS MKSSI-32DESC=MKS Source Integrity (Win32 Console)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=d:\mks\mksntGC=co.exe <XW32C><LFN>-l "<FILE>.<EXT>"PC=ci.exe <XW32C><LFN>-u -f "<FILE>.<EXT>" < "<COMNT>"LC=rlog.exe <XW32C><LFN>"<LPATH><NAME>.<EXT>"DC=co.exe <XW32C><LFN>-p "<FILE>.<EXT>" > "<TMP_PATH><NAME>.<EXT>"CC=ci.exe <XW32C><LFN>-u -T "<FILE>.<EXT>" < "<COMNT>"BC=co.exe <XW32C><LFN>"<FILE>.<EXT>"OC=rcs.exe <XW32C><LFN>-l "<FILE>.<EXT>"UC=rcs.exe <XW32C><LFN>-u "<FILE>.<EXT>"MC=d:\mks\mkssi\mkssi32.exe
+ID=SAPDESC=Sourcerer's ApprenticeLIBEXT=%%%PATH=<LOOKUP>CFS=$change:CFE=$CSP=1BDIR=d:\vcGC=vout.exe -e -fd<LPATH> -m -w <FILE>.<EXT>PC=vin.exe -e -fd<LPATH> <SAPCMT> <FILE>.<EXT>LC=vreport.exe h -e -fd<LPATH> <FILE>.<EXT> -vallDC=vout.exe -e -fd<LPATH> -m -r <TMP_PATH><NAME>.<EXT>CC=vin.exe -e -fd<LPATH> <SAPCMT> <FILE>.<EXT>BC=vout.exe -e -fd<LPATH> -m -r <FILE>.<EXT>OC=vout.exe -e -fd<LPATH> -m -w <FILE>.<EXT>UC=vadmin.exe u -e -fd<LPATH> <FILE>.<EXT>
+ID=SSAFEDESC=SourceSafe 3.0 (16-bit Windows)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\SSGC=SSWCL.EXE CHECKOUT -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"PC=SSWCL.EXE UPDATE -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"LC=SSWCL.EXE HISTORY -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"DC=SSWCL.EXE GET -EXITCODE -I- -O&@<~!VCSNAME> -GL<TMP_PATHX> "<LPATH><NAME>.<EXT>"CC=SSWCL.EXE ADD -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> <NAME>.<EXT>BC=SSWCL.EXE GET -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"OC=SSWCL.EXE CHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"UC=SSWCL.EXE UNCHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"MC=SSW.EXE
+ID=SSAFE 4.0DESC=SourceSafe 4.0 (16-bit Windows)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\VSS\WIN\GC=SS.EXE CHECKOUT -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"PC=SS.EXE UPDATE -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"LC=SS.EXE HISTORY -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"DC=SS.EXE GET -EXITCODE -I- -O&@<~!VCSNAME> -GL<TMP_PATHX> "<LPATH><NAME>.<EXT>"CC=SS.EXE ADD -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> <NAME>.<EXT>BC=SS.EXE GET -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"OC=SS.EXE CHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"UC=SS.EXE UNCHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"MC=SSEXP.EXE
+ID=SSAFE 4.0-32DESC=SourceSafe 4.0 (Win32 Console)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\VSS\WIN32\GC=SS.EXE <XW32C><LFN>CHECKOUT -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"PC=SS.EXE <XW32C><LFN>UPDATE -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"LC=SS.EXE <XW32C><LFN>HISTORY -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"DC=SS.EXE <XW32C><LFN>GET -EXITCODE -I- -O&@<~!VCSNAME> -GL<TMP_PATHX> "<LPATH><NAME>.<EXT>"CC=SS.EXE <XW32C><LFN>ADD -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> <NAME>.<EXT>BC=SS.EXE <XW32C><LFN>GET -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"OC=SS.EXE <XW32C><LFN>CHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"UC=SS.EXE <XW32C><LFN>UNCHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"MC=SSEXP.EXE
+ID=SSAFE 5.0DESC=SourceSafe 5.0 (Win32 Console)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\VSS\WIN32\GC=SS.EXE <XW32C><LFN>CHECKOUT -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"PC=SS.EXE <XW32C><LFN>UPDATE -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"LC=SS.EXE <XW32C><LFN>HISTORY -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"DC=SS.EXE <XW32C><LFN>GET -EXITCODE -I- -O&@<~!VCSNAME> -GL<TMP_PATHX> "<LPATH><NAME>.<EXT>"CC=SS.EXE <XW32C><LFN>ADD -EXITCODE -I- -C@<COMNT> -O&@<~!VCSNAME> <NAME>.<EXT>BC=SS.EXE <XW32C><LFN>GET -EXITCODE -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"OC=SS.EXE <XW32C><LFN>CHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"UC=SS.EXE <XW32C><LFN>UNCHECKOUT -EXITCODE -G- -I- -O&@<~!VCSNAME> "<LPATH><NAME>.<EXT>"MC=SSEXP.EXE
+ID=TLIB 4.12DESC=TLIB 4.12 (Dos)LIBEXT=??!LOKEXT=??#PATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\TLIBGC=TLIB.EXE P <LPATH> E <NAME>.<EXT>PC=TLIB.EXE P <LPATH> U <FILE>.<EXT> @<COMNT>LC=TLIB.EXE P <LPATH> L <FILE>.<EXT>DC=TLIB.EXE P <LPATH> B <TMP_PATH><NAME>.<EXT> CC=TLIB.EXE P <LPATH> N <FILE>.<EXT> @<COMNT>BC=TLIB.EXE CP <LPATH> B <NAME>.<EXT>OC=TLIB.EXE CP <LPATH> O <FILE>.<EXT>UC=TLIB.EXE CP <LPATH> I <FILE>.<EXT>MC=TLIB.EXE
+ID=TLIB 5.0xDESC=TLIB 5.0x (Dos)LIBEXT=??!LOKEXT=??#PATH=<LOOKUP>CFS=$change:CFE=$BDIR=D:\TLIBGC=TLIB.EXE CP <LPATH> E <FILE>.<EXT>PC=TLIB.EXE CP <LPATH> U <FILE>.<EXT> @<COMNT>LC=TLIB.EXE CP <LPATH> L <FILE>.<EXT>DC=TLIB.EXE C "TRACK N" CP <LPATH> EB <TMP_PATH><NAME>.<EXT> CC=TLIB.EXE CP <LPATH> N <FILE>.<EXT> @<COMNT>BC=TLIB.EXE CP <LPATH> EB <FILE>.<EXT>OC=TLIB.EXE CP <LPATH> ER <FILE>.<EXT>UC=TLIB.EXE CP <LPATH> UD <FILE>.<EXT>MC=TLIB.EXE -E1
+ID=VERSDESC=Versions 1.1 (Dos)PATH=<LOOKUP>CFS=$change:CFE=$BDIR=d:\versionsGC=verscmd.exe co /x /g /f /l /v <LPATHX> <NAME>.<EXT>PC=verscmd.exe ci /x /g /u /o /t <COMNT> /v <LPATHX> <NAME>.<EXT>LC=verscmd.exe hst /x /g /a /v <LPATHX> <NAME>.<EXT>DC=verscmd.exe co /x /g /u /o /f /v <LPATHX> /w <TMP_PATHX> <NAME>.<EXT>CC=verscmd.exe ci /x /g /u /o /e <COMNT> /v <LPATHX> <NAME>.<EXT>BC=verscmd.exe co /x /g /u /o /f /v <LPATHX> <NAME>.<EXT>OC=verscmd.exe lck /x /g /v <LPATHX> <NAME>.<EXT>UC=verscmd.exe lck /x /g /u /o /v <LPATHX> <NAME>.<EXT>MC=versions.exe
+TLIB.VAD
+FD=H:\VCS\VCS\BETA\AD=H:\VCS\VCS\TLIB\WD=I:\SRC\VCS\BETA\LD=H:\VCS\VCS\LOK\
+FD=H:\VCS\VCS\DEV\AD=H:\VCS\VCS\TLIB\WD=I:\SRC\VCS\DEV\LD=H:\VCS\VCS\LOK\
+FD=H:\VCS\VCS\REL\AD=H:\VCS\VCS\TLIB\WD=I:\SRC\VCS\REL\LD=H:\VCS\VCS\LOK\
+FD=I:\SRC\MEW\VCS\AD=H:\VCS\VCS\TLIB\WD=I:\SRC\MEW\VCS\LD=H:\VCS\VCS\LOK\
+FD=I:\SRC\VCS\BETA\AD=H:\VCS\VCS\TLIB\WD=I:\SRC\VCS\BETA\LD=H:\VCS\VCS\LOK\
+FD=I:\SRC\VCS\DEV\AD=H:\VCS\VCS\TLIB\WD=I:\SRC\VCS\DEV\LD=H:\VCS\VCS\LOK\
+FD=I:\SRC\VCS\REL\AD=H:\VCS\VCS\TLIB\WD=I:\SRC\VCS\REL\LD=H:\VCS\VCS\LOK\
+FD=I:\SRC\TEST\AD=H:\VCS\TEST\TLIB\LD=H:\VCS\VCS\LOK\
+PVCS.VAD
+FD=I:\SRC\MEW\VCS\AD=H:\VCS\VCS\PVCS\
+FD=I:\SRC\TEST\AD=H:\VCS\TEST\PVCS\
+RCS.VAD
+FD=I:\SRC\MEW\VCS\AD=H:\VCS\VCS\RCS\
+FD=I:\SRC\TEST\AD=H:\VCS\TEST\RCS\
+SSAFE.VAD
+FD=I:\SRC\MEW\VCS\AD=$\VCS\
+FD=I:\SRC\TEST\AD=$\TEST\
+SAP.VAD
+FD=I:\SRC\MEW\VCS\AD=H:\VCS\VCS\SAP\
+FD=I:\SRC\TEST\AD=H:\VCS\TEST\SAP\
+LCM.VAD
+FD=E:\LCMTUT\AD=H:\VCS\LCM\VCS\BD=E:\LCMBASE\
+FD=I:\SRC\MEW\VCS\AD=H:\VCS\LCM\VCS\WD=E:\LCMTUT\BD=E:\LCMBASE\
+REALIAS.DB
+DS=AlphanumericAS=<a>CS=[A-Za-z0-9]US=[A-Za-z0-9]
+DS=BlankAS=<b>CS=[ @t@xFF]US=[ \t\xFF]
+DS=Blanks (0+)AS=<b0>CS=[ @t@xFF]*US=[ \t\xFF]*
+DS=Blanks (1+)AS=<b1>CS=[ @t@xFF]+US=[ \t\xFF]+
+DS=BlanksAS=[:b:]CS={[ @t]+)US=([ \t]+)
+DS=CharacterAS=<c>CS=[A-Za-z]US=[A-Za-z]
+DS=DigitAS=<d>CS=[0-9]US=[0-9]
+DS=FilenameAS=<f>CS=[~\]\[\\:/<>|=;,@t\*]*US=[^\]\[\\:/<>|=;,\t\*]@
+DS=Function CAS=<fc>CS={int}|{str}|{void}<b1><vc><b0>(US=(int)|(str)|(void)<b1><vc><b0>\(
+DS=Function CMACAS=<fcm>CS={int}|{str}|{void}|{real}<b1><vc><b0>(US=(int)|(str)|(void)|(real)<b1><vc>[ \t\xFF\(]
+DS=Function PascalAS=<fp>US=(^[ \t]@(function)|(procedure)|(constructor)|(destructor))|([^a-zA-Z](record)|(object)|(class)[^a-zA-Z]|$)
+DS=Hex numberAS=<h>CS={0x}|{\$}[0-9A-Fa-f]+US=(0x)|(\$)[0-9A-Fa-f]+
+DS=IntegerAS=<i>CS=[0-9]+US=[0-9]+
+DS=Macro FileAS=<mf>CS=macro_file<b1><vc>[ ;]US=macro_file<b1><vc>[ ;]
+DS=Macro functionAS=<m>CS=macro<b1><vc>US=macro<b1><vc>
+DS=Path OnlyAS=<po>CS={[A-Za-z]:\|/}*{<f>\|/}*US=([A-Za-z]:\\|/)@(<f>\\|/)@
+DS=PathAS=<p>CS={[A-Za-z]:\|/}*{<f>\|/}*<f>US=([A-Za-z]:\\|/)@(<f>\\|/)@<f>
+DS=Quoted stringAS=<q>CS={"?*"}|{'?*'}US=(".@")|('.@')
+DS=Quoted 'string'AS=<q'>CS='?*'US='.@'
+DS=Quoted "string"AS=<q">CS="?*"US=".@"
+DS=Tag CMacAS=<TCM>CS=%{<fcm>}|{<m>}US=^( *macro)|(int)|(str)|(void)|(real) +(.*)[^;]*$
+DS=Variable CAS=<vc>CS=[A-Za-z_$][A-Za-z0-9_$]*US=[A-Za-z_$][A-Za-z0-9_$]*
+HLPFILES.DB
+DS=Master Help PathGS=!Help_Path!HFP=<~!Delphi_HP>;<~!BCpp_HP>;<~!WCpp_HP>;<~!Inf_HP>
+DS=Borland C/C++ PathGS=!BCpp_HPHFP=d:\bc45\bin
+DS=Delphi PathGS=!Delphi_HPHFP=d:\delphi\bin
+DS=Watcom C/C++ PathGS=!WCpp_HPHFP=<%WWinHelp>
+DS=CMac Help FileGS=!CMac_HlpHFP=cmacwin
+DS=Delphi Help FileGS=!Delphi_HlpHFP=delphi
+DS=Win32 APIsGS=!Win32_HlpHFP=win32
+DS=Window 3.1 APIsGS=!Win31_HlpHFP=win31wh
+DS=Bookshelf PathGS=!Inf_HPHFP=<%bookshelf>
+DS=Rexx HelpGS=!Rexx_InfHFP=rexx.inf
+DS=RxExtra HelpGS=!RxExtra_InfHFP=rxextras.inf
+DS=Rexx BooksGS=!RxBook_InfHFP=<%rexxbook>.inf
+DS=Object Rexx FilesGS=!ORexx_InfHFP=e:\orexx\rexx.inf+rexxpg.inf
+DS=Open Class LibaryGS=!CLRefHFP=cppclrf+cppdat+cppapp+cppwin+cppctl+cppadv+cpp2dg+cppdde+cppdm+cppmm+cppclrb.inf
+DS=OS2 CP ReferenceGS=!CPRefHFP=cp1+cp2+cp3.inf
+DS=OS2 GPI ReferenceGS=!GPIRefHFP=gpi1+gpi2+gpi3.inf
+DS=OS2 PM ReferenceGS=!PMRefHFP=pm1+pm2+pm3+pm4+pm5.inf
+DS=OS2 WPS RefrenceGS=!WPSRefHFP=wps1+wps2+wps3.inf
+DS=OS2 MM ReferenceGS=!MMRefHFP=mmref1+mmref2+mmref3.inf
+DS=VPascal RTLGS=!VPRtlRefHFP=vprtl.inf
+DS=VP OS2 CP ReferenceGS=!VPCPRefHFP=vpcp1+vpcp2+vpcp3.inf
+DS=VP OS2 GPI ReferenceGS=!VPGPIRefHFP=vpgpi1+vpgpi2+vpgpi3.inf
+DS=VP OS2 PM ReferenceGS=!VPPMRefHFP=vppm1+vppm2+vppm3+vppm4+vppm5.inf
+DS=Visual C++ BooksGS=!VCpp_mvbHFP=vcbks40.mvb
+DS=HTML Help FileGS=!WL_HtmlHelpHFP=WLHtml95.hlp
+HLPVIEWERS.DB
+E=HTM HTMLC=netscape.exe <HFILE>.<HEXT>
+E=INFC=view.exe <HFILE> <HOPTS>
+E=MANC=man.exe <HFILE>.<HEXT>
+E=QHC=e:\qc\qh.exe -d <HFILE>.HLP <HOPTS>
+E=mvbC=F:\MSDEV\bin\MSDEV.EXES=MSINT=<hname>.<hext>DC=KeywordLookup(`<hopts>')U=1
+E=_mvbC="F:\Program Files\Microsoft Developer Network\INFOVIEW.EXE" <hname>.<hext>S=MSINT=<hname>.<hext>DC=KeywordLookup(`<hopts>')U=1
+KEYMAC.DB
+PACKAGES.DB
+@þ=Installed Packages
+PKG=StartupINIT=Update /F=STARTUP.CFGEN=1
+CFGFILE.VER
+CUR=1VER=8012
+POSITION.CFG
+/WP_F=2/WP_SC=3/WP_MNX=-32000/WP_MNY=-32000/WP_MXX=-1/WP_MXY=-1/WP_LT=177/WP_TP=177/WP_RT=945/WP_BT=707
+HELPER.DB
+FLOAT.DB
+
+SCRIPT SCRIPTLIB.PGM
+PN=Mocha preprocessor/compiler - debug(perl)CL=perl.exe <LFN><~MOCHA_PERL_PATH>mochac.pl -p -e -d DEBUG -s <PATH><NAME>.<EXT>WORKLOC=1PT=Mocha preprocessorEXEID=5SHOW=0SA=1DP=1
+PN=Mocha preprocessor/compiler - release(perl)CL=perl.exe <LFN><~MOCHA_PERL_PATH>mochac.pl -p -e -d RELEASE -r -s <PATH><NAME>.<EXT>WORKLOC=1PT=Mocha preprocessorEXEID=5SHOW=0SA=1DP=1
+PN=Mocha preprocessor/compiler - debugCL=python.exe <LFN><~MOCHA_PATH>script_prep.pyc -dDEBUG <NAME>.<EXT>WORKLOC=1PT=Mocha preprocessorEXEID=5SHOW=0SA=1DP=1
+PN=Mocha preprocessor/compiler - releaseCL=python.exe <LFN><~MOCHA_PATH>script_prep.pyc -dRELEASE <NAME>.<EXT>WORKLOC=1PT=Mocha preprocessorEXEID=5SHOW=0SA=1NR=1
+JAV JAVA.PGM
+PN=Java CompilerCL=javac.exe -deprecation <LFN><FILE>.<EXT>WORKLOC=1PT=Javac CompilerEXEID=1SHOW=0SA=1
+PL.PGM
+PN=Perl 5.0  (Win32)CL=perl.exe <LFN><FILE>.<EXT>WORKLOC=1PT=Perl CompilerEXEID=5SHOW=0SA=1
+.PGM
+HTMLINFO.CFG
+/GI=!WL_BrowserAutoUpdate=0
+/GI=!WL_BrowserToTop=0
+/GI=!WL_Format_Flags=0
+/GI=!WL_Highlight=1
+/GI==0
+SESSMGR.CFG
+default
+DEFAULT.PGM

@@ -1,0 +1,49 @@
+ :: UI_LOAD_TIME ui_textstylemanager_npc.inc 2
+ :: UI_LOAD_TIME ui_console_npc.inc 121
+ :: UI_LOAD_TIME ui_messagebox_npc.inc 56
+ :: UI_LOAD_TIME ui_sample_npc.inc 4
+ :: UI_LOAD_TIME ui_avatar_viewer_npc.inc 42
+ :: UI_LOAD_TIME ui_backdrop_default_npc.inc 2
+ :: UI_LOAD_TIME font/lucida_console_12.inc 72
+ :: UI_LOAD_TIME font/verdana_12.inc 9
+ :: UI_LOAD_TIME font/verdana_bold_12.inc 8
+ :: UI_LOAD_TIME ui_fonts_npc.inc 90
+ :: UI_LOAD_TIME ui_styles_npc.inc 301
+ :: UI_LOAD_TIME ui_root_npc.ui 675
+:: UI_LOAD_TYPE:                         Button    13     0 0.00000
+:: UI_LOAD_TYPE:                    ButtonStyle   132     7 0.05303
+:: UI_LOAD_TYPE:                  CheckboxStyle     7     0 0.00000
+:: UI_LOAD_TYPE:                      Composite     2     0 0.00000
+:: UI_LOAD_TYPE:    CuiWidget3dObjectListViewer     2    23 11.50000
+:: UI_LOAD_TYPE:                         Cursor    29     1 0.03448
+:: UI_LOAD_TYPE:                      CursorSet     1     0 0.00000
+:: UI_LOAD_TYPE:                           Data    11     0 0.00000
+:: UI_LOAD_TYPE:                     DataSource     9    43 4.77778
+:: UI_LOAD_TYPE:            DataSourceContainer     1     0 0.00000
+:: UI_LOAD_TYPE:                  FontCharacter   576    55 0.09549
+:: UI_LOAD_TYPE:                          Image    18     0 0.00000
+:: UI_LOAD_TYPE:                     ImageFrame     8     0 0.00000
+:: UI_LOAD_TYPE:                     ImageStyle  3803    46 0.01210
+:: UI_LOAD_TYPE:                      ListStyle     5     0 0.00000
+:: UI_LOAD_TYPE:                      Namespace  1126     8 0.00710
+:: UI_LOAD_TYPE:                           Page    69    49 0.71014
+:: UI_LOAD_TYPE:                        palette    15    12 0.80000
+:: UI_LOAD_TYPE:                       PieStyle     1     0 0.00000
+:: UI_LOAD_TYPE:                      PopupMenu     1     0 0.00000
+:: UI_LOAD_TYPE:                 PopupMenuStyle     4     0 0.00000
+:: UI_LOAD_TYPE:                    Progressbar     1    35 35.00000
+:: UI_LOAD_TYPE:                     RadialMenu     1     0 0.00000
+:: UI_LOAD_TYPE:                RadialMenuStyle     1     0 0.00000
+:: UI_LOAD_TYPE:                 RectangleStyle   614    34 0.05537
+:: UI_LOAD_TYPE:                         Runner     2    11 5.50000
+:: UI_LOAD_TYPE:                      Scrollbar     4    26 6.50000
+:: UI_LOAD_TYPE:                 SliderbarStyle    14     1 0.07143
+:: UI_LOAD_TYPE:                TabbedPaneStyle     2     0 0.00000
+:: UI_LOAD_TYPE:                           Text    27    29 1.07407
+:: UI_LOAD_TYPE:                        Textbox     1     0 0.00000
+:: UI_LOAD_TYPE:                   TextboxStyle    17     1 0.05882
+:: UI_LOAD_TYPE:                      TextStyle     3     0 0.00000
+:: UI_LOAD_TYPE:               TextStyleManager     1     0 0.00000
+:: UI_LOAD_TYPE:                   TooltipStyle     1    37 37.00000
+:: UI_LOAD_TYPE:                  TreeViewStyle     1     0 0.00000
+:: UI_LOAD_TYPE:                     VolumePage     2    23 11.50000

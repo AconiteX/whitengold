@@ -1,0 +1,20 @@
+Art asset customization report
+Start time: Thu Jan  15:00:40 2010
+shader/ykl_combined_s01_swap_hcsb22.sht: defines out-of-range default value [64] for palette [palette/starships_base.pal] with (64) entries, clamping to valid range.
+shader/ykl_combined_s01_swap_hcsb22.sht: defines out-of-range default value [128] for palette [palette/starships_trim.pal] with (64) entries, clamping to valid range.
+shader/zab_f_body.sht: defines out-of-range default value [2] for palette [palette/white.pal] with (2) entries, clamping to valid range.
+shader/eqp_organ_tusk_hcsc21.sht: defines out-of-range default value [10] for palette [palette/white.pal] with (2) entries, clamping to valid range.
+shader/ykl1_swap_hcsb22.sht: defines out-of-range default value [64] for palette [palette/starships_base.pal] with (64) entries, clamping to valid range.
+shader/ykl1_swap_hcsb22.sht: defines out-of-range default value [128] for palette [palette/starships_trim.pal] with (64) entries, clamping to valid range.
+shader/ith_jacket_s12.sht: defines out-of-range default value [7] for palette [palette/white.pal] with (2) entries, clamping to valid range.
+shader/hum_f_body.sht: defines out-of-range default value [2] for palette [palette/white.pal] with (2) entries, clamping to valid range.
+shader/lifeday_mizard_hue_sm_hc9.sht: defines out-of-range default value [23] for palette [palette/lifeday.pal] with (9) entries, clamping to valid range.
+shader/eqp_organ_rancorfinger_hcsc21.sht: defines out-of-range default value [10] for palette [palette/white.pal] with (2) entries, clamping to valid range.
+shader/eqp_organ_rancorfinger_sm_hcsc21.sht: defines out-of-range default value [10] for palette [palette/white.pal] with (2) entries, clamping to valid range.
+shader/ykl_combined_s01_swap_sm_hcsb22.sht: defines out-of-range default value [64] for palette [palette/starships_base.pal] with (64) entries, clamping to valid range.
+shader/ykl_combined_s01_swap_sm_hcsb22.sht: defines out-of-range default value [128] for palette [palette/starships_trim.pal] with (64) entries, clamping to valid range.
+shader/lifeday_mizard_hue_hcsc22.sht: defines out-of-range default value [23] for palette [palette/lifeday.pal] with (9) entries, clamping to valid range.
+shader/kowakian_monkey_lizard_hair_ha7.sht: defines out-of-range default value [23] for palette [palette/lifeday.pal] with (9) entries, clamping to valid range.
+shader/ith_jacket_s12_sm.sht: defines out-of-range default value [7] for palette [palette/white.pal] with (2) entries, clamping to valid range.
+shader/lifeday_mizard_hcsc22.sht: defines out-of-range default value [23] for palette [palette/creature_mutant.pal] with (20) entries, clamping to valid range.
+Finish time: Thu Jan  15:00:56 2010
